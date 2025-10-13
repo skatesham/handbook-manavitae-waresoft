@@ -1,11 +1,3 @@
-perfeito ⚙️ entendi — você quer um **README direto e funcional**, sem muito texto filosófico, focado em **como usar o handbook** no dia a dia: editar docs, criar changelogs, adicionar ao MkDocs, etc.
-aqui vai uma versão **limpa, prática e objetiva**, do jeito que um desenvolvedor novo entenderia em 30 segundos.
-
----
-
-## 🧩 `README.md` enxuto e ideal
-
-````markdown
 # 🌿 ManaVitae WareSoft Handbook
 
 Centro de conhecimento, decisões e estrutura da ManaVitae WareSoft.  
