@@ -1,4 +1,5 @@
 site_name: ManaVitae Handbook
+site_description: Central de conhecimento e cultura da ManaVitae WareSoft
 theme:
   name: material
   features:
@@ -8,23 +9,41 @@ theme:
     - search.suggest
     - search.highlight
   palette:
-    # modo claro padrão
     - scheme: default
       primary: teal
       accent: indigo
       toggle:
         icon: material/weather-night
         name: Mudar para modo escuro
-    # modo escuro
     - scheme: slate
       primary: teal
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Mudar para modo claro
+  icon:
+    logo: material/flower
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.png
+  language: pt-BR
+
+plugins:
+  - search
+
 nav:
-  - Motivo: docs/motivo.md
-  - Princípios: docs/principios.md
-  - Como Trabalhamos: docs/como-trabalhamos.md
-  - Modelo ADR: docs/decisao-tecnica-template.md
-  - Crescimento: docs/crescimento.md
+  - 🏠 Início: index.md
+  - 🌿 Motivo: motivo.md
+  - 💎 Princípios: principios.md
+  - ⚙️ Como Trabalhamos: como-trabalhamos.md
+  - 🌱 Crescimento: crescimento.md
+  - 🧠 Decisões Técnicas:
+      - ADR 0001 - Angular 20 Zoneless + PrimeNG + TailwindCSS: adr/0001-angular20-primeng-tailwind.md
+      - ADR 0002 - Windsurf: adr/0002-windsurf.md
+      - ADR 0003 - GitHub: adr/0003-github.md
+      - Modelo ADR: decisao-tecnica-template.md
+  - 📜 Changelog:
+      - Template: changelog/template.md
+      - 2025-10-13 - Inicialização do Handbook: changelog/2025-10-13-inicializacao-handbook.md
+
+repo_url: https://github.com/skatesham/handbook-manavitae-waresoft
+repo_name: manavitae-handbook-manavitae-waresoft

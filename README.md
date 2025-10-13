@@ -1,12 +1,95 @@
-# ManaVitae WareSoft Handbook
+perfeito ⚙️ entendi — você quer um **README direto e funcional**, sem muito texto filosófico, focado em **como usar o handbook** no dia a dia: editar docs, criar changelogs, adicionar ao MkDocs, etc.
+aqui vai uma versão **limpa, prática e objetiva**, do jeito que um desenvolvedor novo entenderia em 30 segundos.
 
-Este repositório é o centro de conhecimento e cultura da ManaVitae WareSoft.
+---
 
-> Mesmo sendo uma empresa pequena, começamos documentando desde o início — para manter clareza, propósito e consistência conforme crescemos.
+## 🧩 `README.md` enxuto e ideal
 
-## Estrutura
-- [`motivo.md`](docs/motivo.md) — por que existimos.
-- [`principios.md`](docs/principios.md) — valores que guiam decisões.
-- [`como-trabalhamos.md`](docs/como-trabalhamos.md) — rotinas, comunicação e ferramentas.
-- [`decisao-tecnica-template.md`](docs/decisao-tecnica-template.md) — modelo de decisões técnicas (ADR).
-- [`crescimento.md`](docs/crescimento.md) — plano de transição quando o time aumentar.
+````markdown
+# 🌿 ManaVitae WareSoft Handbook
+
+Centro de conhecimento, decisões e estrutura da ManaVitae WareSoft.  
+Tudo o que guia o desenvolvimento, cultura e crescimento consciente da empresa.
+
+---
+
+## 📁 Estrutura
+
+- `docs/motivo.md` — propósito da empresa.  
+- `docs/principios.md` — valores e fundamentos.  
+- `docs/como-trabalhamos.md` — rotinas e processos.  
+- `docs/crescimento.md` — expansão e onboarding.  
+- `docs/adr/` — decisões técnicas (ADRs).  
+- `docs/changelog/` — registros de alterações (changelogs).  
+- `mkdocs.yml` — configuração do site/documentação.  
+
+---
+
+## ⚙️ Uso Rápido
+
+### 🔹 Editar ou adicionar conteúdo
+1. Abra ou crie um arquivo `.md` dentro da pasta `docs/`.  
+2. Mantenha linguagem simples e direta.  
+3. Cada documento trata **um único tema** (single block).  
+
+### 🔹 Criar um novo ADR
+```bash
+cp docs/decisao-tecnica-template.md docs/adr/000X-nome-da-decisao.md
+````
+
+* Atualize a data, contexto e decisão.
+* Salve e confirme o commit.
+
+### 🔹 Criar um novo changelog
+
+```bash
+cp docs/changelog/template.md docs/changelog/YYYY-MM-DD-descricao.md
+```
+
+* Documente o que mudou e por quê.
+* Atualize o `mkdocs.yml` em `nav:` para incluir o novo changelog.
+
+### 🔹 Adicionar item ao menu MkDocs
+
+Abra `mkdocs.yml` e adicione o caminho em `nav:`:
+
+```yaml
+  - 📜 Changelog:
+      - YYYY-MM-DD - Descrição: changelog/YYYY-MM-DD-descricao.md
+```
+
+### 🔹 Visualizar localmente
+
+```bash
+mkdocs serve
+```
+
+Acesse [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+### 🔹 Publicar no GitHub Pages
+
+```bash
+mkdocs gh-deploy
+```
+
+---
+
+## 💡 Regras Simples
+
+* Um arquivo = um assunto.
+* Nomeie arquivos de forma clara e curta.
+* Atualize changelog sempre que algo relevante mudar.
+* Mantenha `mkdocs.yml` sincronizado com os novos arquivos.
+* Faça commits descritivos e objetivos.
+
+---
+
+> “Documente o que é essencial.
+> Simples, direto e vivo.”
+
+
+## 🪷 Créditos
+
+Desenvolvido por Sham Vinicius Fiorin  
+Mantido por **ManaVitae WareSoft**   
+© 2025 — Criado com consciência, arte e propósito.  

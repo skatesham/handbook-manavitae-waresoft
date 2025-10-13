@@ -84,7 +84,6 @@ Use o menu à esquerda ou siga pelos links abaixo:
 
 ---
 
-_“Transformamos ideias em arte funcional que eleva, cura e prospera —  
+>_“Transformamos ideias em arte funcional que eleva, cura e prospera —  
 sem sacrificar o equilíbrio entre saúde, qualidade e realidade.”_
 
----
