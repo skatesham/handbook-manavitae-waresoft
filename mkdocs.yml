@@ -2,6 +2,8 @@ site_name: ManaVitae Handbook
 site_description: Central de conhecimento e cultura da ManaVitae WareSoft
 theme:
   name: material
+  logo: assets/logo.png      # aparece no topo do site
+  favicon: assets/favicon.ico  # ícone da aba do navegador
   features:
     - navigation.tabs
     - navigation.sections
