@@ -1,0 +1,9 @@
+site_name: ManaVitae Handbook
+nav:
+  - Motivo: docs/motivo.md
+  - Princípios: docs/principios.md
+  - Como Trabalhamos: docs/como-trabalhamos.md
+  - Modelo ADR: docs/decisao-tecnica-template.md
+  - Crescimento: docs/crescimento.md
+theme:
+  name: material
