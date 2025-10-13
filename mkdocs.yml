@@ -1,9 +1,30 @@
 site_name: ManaVitae Handbook
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    # modo claro padrão
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Mudar para modo escuro
+    # modo escuro
+    - scheme: slate
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Mudar para modo claro
 nav:
   - Motivo: docs/motivo.md
   - Princípios: docs/principios.md
   - Como Trabalhamos: docs/como-trabalhamos.md
   - Modelo ADR: docs/decisao-tecnica-template.md
   - Crescimento: docs/crescimento.md
-theme:
-  name: material
