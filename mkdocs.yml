@@ -36,6 +36,7 @@ nav:
   - 💎 Princípios: principios.md
   - ⚙️ Como Trabalhamos: como-trabalhamos.md
   - 🌱 Crescimento: crescimento.md
+  - 📝 Prompt-Mestre: prompt-mestre.md
   - 🧠 Decisões Técnicas:
       - ADR 0001 - Angular 20 Zoneless + PrimeNG + TailwindCSS: adr/0001-angular20-primeng-tailwind.md
       - ADR 0002 - Windsurf: adr/0002-windsurf.md
