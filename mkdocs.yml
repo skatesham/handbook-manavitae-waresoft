@@ -10,6 +10,9 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
     - scheme: default
       primary: teal
