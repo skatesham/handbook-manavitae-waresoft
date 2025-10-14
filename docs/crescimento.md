@@ -15,14 +15,16 @@ Antes de ensinar ferramentas, ensinamos o *porquê* e o *como sentir o ritmo da 
 
 ---
 
-## 🧭 2. Onboarding com presença
+## 🧬 2. Onboarding estruturado
 
-Cada novo integrante passa por um **ritual de integração consciente**, revisando:  
-- Nosso **motivo**: o porquê existimos.  
-- Nossos **princípios**: o que guia nossas ações.  
-- Nosso **modo de trabalho**: fluxo natural, empatia e responsabilidade.
+Cada novo integrante passa por um **processo de integração**, incluindo:  
+- Leitura do **Handbook** (motivo, princípios, como trabalhamos)
+- **Setup do ambiente** de desenvolvimento (ferramentas, acessos, repositórios)
+- **Revisão de ADRs** para entender decisões técnicas
+- **Pair programming** com membros experientes
+- **Primeira contribuição** guiada (bug fix ou feature pequena)
 
-Durante os primeiros dias, o foco é **entender a energia e o propósito**, não apenas o código.
+Primeiros 30 dias focam em absorver cultura, processos e fazer contribuições incrementais.
 
 ---
 
@@ -36,35 +38,44 @@ desde que **honre os princípios e a intenção original** de cada projeto.
 
 ---
 
-## 🔄 4. Aprendizado coletivo
+## 🔄 4. Conhecimento compartilhado
 
-Erros, descobertas e experimentos são documentados e compartilhados.  
-Aprender não é corrigir o passado, mas **gerar padrões mais saudáveis**.  
-Cada aprendizado gera um novo item vivo em nosso manual interno.
+**Documentação contínua**:
+- Decisões técnicas registradas em ADRs
+- Soluções de problemas documentadas
+- Processos atualizados no Handbook
+- Código comentado onde necessário
+- README mantidos atualizados
 
----
-
-## 🧬 5. Expansão em camadas
-
-A empresa cresce como um organismo:    
-- **Camada 1:** consciência (pessoas alinhadas).  
-- **Camada 2:** estrutura (processos, automações, rituais).  
-- **Camada 3:** presença (projetos, produtos, clientes).  
-
-Nenhuma camada avança se a anterior estiver desequilibrada.
+**Compartilhamento ativo**:
+- Sessões técnicas mensais
+- Code reviews como ferramenta de ensino
+- Retrospectivas para evolução de processos
 
 ---
 
-## 🌺 6. Manter a vibração original
+## 🧬 5. Crescimento escalável
 
-Mesmo com mais pessoas, times ou clientes, buscamos preservar:  
-- **Qualidade em estado de arte**  
-- **Cuidado biopsicossocial**  
-- **Empatia e ética nas intenções**  
-- **Fluxo natural de criação**  
+Crescemos de forma estruturada:    
+- **Pessoas**: Contratar alinhados com cultura e princípios
+- **Processos**: Documentar, automatizar, padronizar antes de escalar
+- **Tecnologia**: Arquitetura que suporta crescimento sem reescrita
+- **Clientes**: Aumentar base mantendo qualidade de entrega
 
-Tudo o que nasce aqui deve ressoar com a frequência original:  
-**arte, equilíbrio e consciência.**
+Processos sólidos permitem crescer sem perder qualidade ou sobrecarregar o time.
+
+---
+
+## 🌺 6. Manter a cultura técnica
+
+Mesmo crescendo, preservamos:  
+- **Qualidade técnica** através de padrões e code review
+- **Documentação** como base de conhecimento escalável
+- **Testes automatizados** garantindo confiança em mudanças
+- **Processos consistentes** que funcionam independente do tamanho do time
+- **Autonomia** baseada em princípios claros e bem comunicados
+
+Cultura forte permite crescer sem perder identidade ou qualidade.
 
 ---
 

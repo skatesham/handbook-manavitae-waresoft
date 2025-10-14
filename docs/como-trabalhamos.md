@@ -38,40 +38,50 @@ Falar é um ato consciente, não uma descarga emocional.
 
 ---
 
-## 🛠️ 4. Ferramentas e liberdade
+## 🛠️ 4. Ferramentas e tecnologia
 
 Utilizamos:
-- **Git** para versionar ideias e código.  
-- **WhatsApp consciente** para comunicação leve e direta.  
-- **Grupos em provedores** para alinhamentos mais amplos.  
-- **Windsurf** e **IA consciente** para criar, testar e aprender.  
+- **Git + GitHub** para versionamento e colaboração
+- **Windsurf** como IDE principal com IA integrada
+- **Stack definida** conforme documentado em Engenharia de Software
+- **WhatsApp** para comunicação rápida do time
+- **Documentação** como fonte única de verdade (ADRs, README, manuais)
 
-Não limitamos ferramentas — mas evitamos buscar mais do que conseguimos sustentar com equilíbrio.
-
----
-
-## 🎨 5. O processo de criação
-
-Seguindo nosso manual interno, o fluxo natural de produto é:
-```
-
-Brainstorm → Protótipo → Teste → Refino → Entrega
-
-```
-
-Cada etapa honra o motivo original e busca equilíbrio entre **função, forma e intenção**.  
-O processo é vivo e adaptável, nunca engessado.
+Escolhemos ferramentas que aumentam produtividade sem adicionar complexidade desnecessária.
 
 ---
 
-## 🌺 6. O que é uma entrega completa
+## 🎨 5. Processo de desenvolvimento
+
+Fluxo de trabalho:
+```
+Planejamento → Implementação → Testes → Code Review → Deploy
+```
+
+**Na prática**:
+- Criar branch feature/bugfix do develop
+- Desenvolver seguindo padrões estabelecidos
+- Escrever testes automatizados
+- Abrir PR com descrição clara
+- Code review obrigatório
+- Merge após aprovação e testes passando
+- Deploy automático ou manual conforme ambiente
+
+O processo é consistente mas adaptável conforme necessidade do projeto.
+
+---
+
+## 🌺 6. Definition of Done
 
 Uma entrega está **pronta** quando:  
-- Funciona com estabilidade.  
-- É **bela** por dentro e por fora.  
-- Transmite a **intenção original**, como uma música que vibra certa.  
+- Funciona conforme especificado
+- Testes automatizados criados e passando
+- Code review aprovado
+- Documentação atualizada
+- Deploy em ambiente de validação realizado
+- Sem bugs conhecidos ou débitos técnicos não documentados
 
-> Se a criação soa harmônica e cumpre seu propósito — ela está completa.
+> Qualidade é responsabilidade de todos, desde o primeiro commit.
 
 ---
 
@@ -85,15 +95,16 @@ Esse princípio protege a energia e o respeito mútuo.
 
 ---
 
-## 🔄 8. Aprendizado e responsabilidade
+## 🔄 8. Aprendizado contínuo
 
-Erros são parte natural do fluxo.  
-O que importa é a **consciência e correção**:  
-1. **Alerta** — reconhecer o desequilíbrio.  
-2. **Criação de norma** — aprender e evitar repetição.  
-3. **Advertência ou pena** — quando há descuido consciente.  
+Erros fazem parte do desenvolvimento.  
+O que importa é **aprender e evoluir**:  
+1. **Identificar** — reconhecer o problema ou falha
+2. **Documentar** — registrar causa raiz e solução
+3. **Prevenir** — criar testes, processos ou melhorias para evitar repetição
+4. **Compartilhar** — disseminar conhecimento com o time
 
-Tudo é tratado com empatia e verdade — não para punir, mas para restaurar o equilíbrio.
+Retrospectivas quinzenais ajudam a identificar melhorias em processos e práticas.
 
 ---
 
