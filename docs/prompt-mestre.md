@@ -1,119 +1,176 @@
-# Prompt-Mestre ManaVitae WareSoft (para criar próximas apps)
+Excelente ponto — o texto atual do seu **Prompt-Mestre ManaVitae WareSoft** é muito bom como guia tático, mas está excessivamente centrado em “aplicativos Angular/FastAPI”. Abaixo está uma **versão reescrita e refinada**, mantendo toda a estrutura conceitual (claridade, rastreabilidade, qualidade e documentação), mas tornando-a **agnóstica de tecnologia e orientada a decisão arquitetural** — para que sirva como **framework de escolha e projeto de qualquer stack**.
 
-**Contexto da empresa:**
+---
 
-* Propósito: clareza, consistência e utilidade prática.
-* Princípios: simplicidade, transparência, documentação desde o início, decisões técnicas registradas (ADR), segurança e privacidade por padrão, acessibilidade AA, testes automatizados, entregas pequenas e frequentes.
-* Documentação: README enxuto, ADRs, CHANGELOG, MkDocs.
-* Estilo: humano, direto, sem jargões desnecessários.
+# 🧭 Prompt-Mestre WareSoft — Base para Projetos de Software (ManaVitae Framework)
 
-**Tarefa:**
-Projete e descreva uma aplicação chamada **[nome da app]** que resolva **[problema principal]** para **[público/usuários]**, entregando **[resultado desejado]** com foco em **simplicidade**, **confiabilidade** e **manutenibilidade**.
+### **Propósito**
 
-## 1) Escopo e valor
+Criar soluções tecnológicas **claras, consistentes e úteis**, alinhadas a princípios de engenharia sólida e propósito humano.
 
-* Problema: [1–2 frases]
-* Objetivos do produto (KRs): [3–5 itens mensuráveis]
-* Fora de escopo (agora): [itens]
+---
 
-## 2) Usuários e jornadas
+## ⚙️ 1. Fundamentos da Organização
 
-* Personas/chaves: [Persona A], [Persona B]
-* Fluxos críticos (happy path):
+**Princípios:**
+
+* **Simplicidade e clareza** em arquitetura e código.
+* **Transparência** e rastreabilidade em decisões (ADRs).
+* **Documentação desde o início** (README, CHANGELOG, ADRs, MkDocs).
+* **Segurança e privacidade por padrão**.
+* **Acessibilidade AA** e UX inclusiva.
+* **Entregas pequenas, frequentes e validadas por testes.**
+
+**Estilo de comunicação:** humano, direto, sem jargões desnecessários.
+**Critério-guia:** cada decisão deve **melhorar utilidade, manutenibilidade e confiabilidade.**
+
+---
+
+## 🧩 2. Missão da Aplicação
+
+Projete e descreva uma aplicação chamada **[nome do produto]** que resolva **[problema principal]** para **[público-alvo]**, entregando **[resultado mensurável]** com foco em **valor**, **eficiência** e **sustentabilidade técnica**.
+
+---
+
+## 🔍 3. Escopo e Valor
+
+* **Problema:** [1–2 frases]
+* **Objetivos-chave (KRs):** [3–5 métricas de sucesso]
+* **Fora de escopo:** [itens]
+
+---
+
+## 👥 4. Usuários e Jornadas
+
+* **Personas-chave:** [Persona A], [Persona B]
+* **Fluxos principais (happy path):**
 
   1. [Usuário] → [Ação] → [Resultado]
-  2. …
-* Casos de borda: [itens]
+* **Casos de borda:** [lista]
 
-## 3) Requisitos funcionais (MVP)
+---
 
-* [RF-01] [descrição curta, critério de aceitação Gherkin se útil]
+## 🧠 5. Requisitos Funcionais (MVP)
+
+* [RF-01] [descrição breve + critério de aceitação, Gherkin opcional]
 * [RF-02] …
-* Integrações: [sistemas/serviços + direção de dados]
-* Importação/edição de dados + geração de CHANGELOG automático de alterações de conteúdo.
+* **Integrações:** [sistemas + direção de dados]
+* **Gestão de conteúdo:** edição com pré-visualização e geração automática de **CHANGELOG**.
 
-## 4) Requisitos não-funcionais
+---
 
-* Segurança: autenticação **[método]**, RBAC (perfis: [Admin], [Editor], [Leitor]); criptografia em repouso e trânsito.
-* Privacidade: minimização de dados, retenção **[X dias/meses]**, consentimento e logs de acesso.
-* Acessibilidade: WCAG 2.2 AA (teclado, contraste, rótulos, foco visível).
-* Performance: TTFB < **[x]ms**, LCP < **[x]s**, orçamentos de bundle < **[x]KB**.
-* Confiabilidade: SLO disponibilidade **[99.x%]**, backups **[freq]**, RTO/RPO **[valores]**.
-* Observabilidade: logs estruturados, métricas (latência, erros), traços; alertas **[canais]**.
+## 🧱 6. Requisitos Não-Funcionais
 
-## 5) Dados e modelo
+| Categoria           | Diretriz                                                                                                                                                                                                                                                                                  |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Segurança**       | Autenticação (ex: OAuth, SAML ou JWT — formas de login seguro). Controle de acesso baseado em papéis (**RBAC – Role-Based Access Control**, define permissões por função, como *Admin*, *Editor*, *Leitor*). Criptografia dos dados em trânsito (HTTPS) e em repouso (no banco de dados). |
+| **Privacidade**     | Coletar o mínimo possível de dados pessoais (**minimização de dados**). Definir política de retenção (ex: apagar dados após *X* meses). Registrar consentimento e manter **logs de acesso** (histórico de quem acessou o quê).                                                            |
+| **Acessibilidade**  | Seguir **WCAG 2.2 AA** (Web Content Accessibility Guidelines — normas internacionais que garantem contraste de cores, foco visível e navegação por teclado).                                                                                                                              |
+| **Performance**     | Tempo até o primeiro byte (**TTFB**) abaixo de *[X] ms*. Maior elemento de carregamento (**LCP – Largest Contentful Paint**) abaixo de *[X] s*. Tamanho total de arquivos da aplicação (**bundle**) menor que *[X] KB*.                                                                   |
+| **Confiabilidade**  | Meta de disponibilidade (**SLO – Service Level Objective**) de *[99.X %]*. Backups automáticos com frequência *[diária/semanal]*. Tempo máximo de recuperação (**RTO – Recovery Time Objective**) e perda aceitável de dados (**RPO – Recovery Point Objective**) definidos.              |
+| **Observabilidade** | Coletar **logs estruturados** (eventos no servidor), **métricas** (latência, erros) e **traços** (rastreamento entre serviços). Alertas enviados para *[e-mail, Slack, SMS]* quando houver falhas.                                                                                        |
 
-* Entidades principais: [Entidade], [Entidade]
-* Atributos essenciais: [lista]
-* Relacionamentos: [1:N, N:N]
-* Regras de integridade/validações: [lista]
-* Migrações: estratégia **[detalhe]**.
+---
 
-## 6) UI/UX
+## 🧬 7. Modelo de Dados
 
-* Princípios: clareza, poucos passos, estados vazios úteis, feedback imediato.
-* Páginas/telas MVP: [lista]
-* Componentes: [tabela simples, lista, filtros, formulário, barra lateral].
-* Ícone do app: **[emoji/ícone provisório]**; permitir **troca de ícone** via tema/config (SVG).
-* Internacionalização (i18n): **pt-BR** base; chaves de texto em arquivos de locale.
+* **Entidades:** [lista]
+* **Atributos principais:** [lista]
+* **Relacionamentos:** [1:N, N:N]
+* **Regras de integridade:** [lista]
+* **Migrações:** estratégia **[manual/automática/versionada]**
 
-## 7) Fluxos de edição + documentação
+---
 
-* Edição de conteúdo/dados com:
+## 🎨 8. UI / UX
 
-  * pré-visualização, validação e **registro automático de mudanças** → gera item no **CHANGELOG.md**.
-* Documentação:
+* **Princípios:** clareza, poucos passos, estados vazios úteis, feedback imediato.
+* **Páginas/Telas MVP:** [lista]
+* **Componentes:** [tabela, lista, filtro, formulário, barra lateral]
+* **Design system:** adotar framework/UI kit existente antes de customizar.
+* **Internacionalização:** **pt-BR** base, chaves em locale files.
+* **Temas:** dark/light com ícones SVG configuráveis.
 
-  * README (como rodar, build, deploy, decisões-chave);
-  * ADRs por decisão técnica relevante (template curto);
-  * **MkDocs** com navegação: *motivo*, *princípios*, *como-trabalhamos*, *decisões técnicas*, *crescimento*;
-  * seção “Como editar dados” e “Como gerar CHANGELOG”.
+---
 
-## 8) Qualidade e entrega
+## 🧾 9. Documentação e Fluxos de Edição
 
-* Testes: unitários **[meta cobertura %]**, E2E dos fluxos críticos, accessibility checks.
-* CI/CD: lint + teste + build + scan de segurança + deploy automatizado **[ambientes]**.
-* Versionamento: SemVer; release notes geradas do CHANGELOG.
-* Feature flags: **[sim/não]** para lançamentos graduais.
+* **Edição:** com validação, pré-visualização e registro automático no **CHANGELOG.md**.
+* **Documentação mínima viva:**
 
-## 9) Restrições e escolhas técnicas
+  * `README.md` (execução, build, deploy, decisões-chave)
+  * `ADRs/` para cada decisão técnica relevante
+  * `MkDocs` com estrutura: *Visão*, *Princípios*, *Como Trabalhamos*, *Decisões Técnicas*, *Evolução*
+  * Seção “Como editar dados / gerar CHANGELOG”
 
-* Stack sugerida: **[frontend]** (ex: React + Tailwind), **[backend]** (ex: Node/Nest ou Python/FastAPI), **[DB]** (ex: Postgres).
-* Estilo de API: REST **[ou GraphQL]** com esquema/documentação (OpenAPI).
-* Licença/reuso: **[MIT/privada]**.
-* Limitações conhecidas: [itens].
+---
 
-## 10) Saídas esperadas (entregue na resposta)
+## 🧪 10. Qualidade e Entrega
 
-1. **Resumo executivo (≤8 linhas)**
-2. **Backlog do MVP** (máx. 12 histórias priorizadas com critérios de aceitação)
-3. **Esquema de dados inicial** (tabelas/campos/chaves)
-4. **Mapa de telas** (lista + descrição breve de cada tela)
-5. **Esboço de API** (endpoints/oper., request/response)
-6. **Plano de testes e métricas**
-7. **Checklist de aceite** (abaixo)
+* **Testes:** unitários [meta %], E2E dos fluxos críticos, verificação de acessibilidade.
+* **CI/CD:** lint + test + build + scan + deploy automático.
+* **Versionamento:** SemVer + release notes do CHANGELOG.
+* **Feature flags:** **[sim/não]** para lançamentos graduais.
 
-### Checklist de aceite (marcar ✅)
+---
 
-* [ ] Fluxos críticos funcionam fim-a-fim
+## 🧭 11. Decisões Técnicas
+
+**Critérios de escolha de stack:**
+
+1. **Aderência ao problema** (não ao modismo).
+2. **Ciclo de vida e suporte ativo** da tecnologia.
+3. **Produtividade × curva de aprendizado.**
+4. **Performance e custo de operação.**
+5. **Integração com stack já adotada.**
+
+**Exemplos de composições equilibradas:**
+
+| Domínio      | Opções recomendadas (avaliar contexto)                                  |
+| ------------ | ----------------------------------------------------------------------- |
+| **Frontend** | Angular 19/20 + PrimeNG + Tailwind / React + Next.js / Vue + Vuetify    |
+| **Backend**  | FastAPI (Python) / NestJS (Node) / Spring Boot (Java Kotlin) / Go Fiber |
+| **Banco**    | Postgres / MySQL / MongoDB / SQLite (para POC)                          |
+| **Infra**    | Docker + CI/CD (GitHub Actions) + GCP ou AWS                            |
+| **API**      | REST ou GraphQL com OpenAPI/Swagger                                     |
+| **Licença**  | MIT / Privada — conforme estratégia de reuso                            |
+
+---
+
+## 📦 12. Saídas Esperadas
+
+1. **Resumo executivo (≤ 8 linhas)**
+2. **Backlog do MVP** (≤ 12 histórias + critérios de aceitação)
+3. **Esquema de dados inicial**
+4. **Mapa de telas**
+5. **Esboço de API** (endpoints, req/res)
+6. **Plano de testes + métricas**
+7. **Checklist de aceite**
+
+### ✅ Checklist de Aceite
+
+* [ ] Fluxos críticos fim-a-fim
 * [ ] A11y AA validada
-* [ ] CHANGELOG automático em edições
+* [ ] CHANGELOG automático ativo
 * [ ] ADR inicial criado
-* [ ] MkDocs publicado com seções padrões
-* [ ] Logs/metrics/alerts configurados
-* [ ] Perf dentro dos orçamentos
-* [ ] RBAC ativo e testado
-* [ ] README enxuto e completo
+* [ ] MkDocs publicado
+* [ ] Logs/métricas/alertas configurados
+* [ ] Performance dentro do orçamento
+* [ ] RBAC ativo
+* [ ] README completo e enxuto
 
 ---
 
-## Mini-Prompt (versão curtinha para features)
+## 🧩 Mini-Prompt (para Features)
 
-> Gere uma especificação curta para a feature **[nome]** nesta app **[nome]**: objetivo, valor, critérios de aceitação, impactos no modelo de dados, endpoints afetados, riscos, testes e atualização de documentação (README, ADR, CHANGELOG, MkDocs). Deve manter simplicidade, acessibilidade e segurança por padrão.
+> Gere uma especificação curta para a feature **[nome]** da app **[produto]**: objetivo, valor, critérios de aceitação, impacto no modelo de dados, endpoints afetados, riscos, testes e atualização da documentação (README, ADR, CHANGELOG, MkDocs).
+> Padrões: simplicidade, acessibilidade, segurança, rastreabilidade.
 
 ---
 
-### Dica de uso
+## 💡 Dica de Uso
 
-* Comece pelo **Prompt-Mestre** para o produto.
-* Depois use o **Mini-Prompt** para cada feature/iteração.
+1. Comece com este **Prompt-Mestre** para o produto.
+2. Use o **Mini-Prompt** para cada feature ou iteração.
+3. Cada nova decisão → novo **ADR**.
+4. Sempre revisite **simplicidade > completude > estilo.**
