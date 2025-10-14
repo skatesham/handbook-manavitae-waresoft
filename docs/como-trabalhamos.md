@@ -28,7 +28,7 @@ As estratégias e planos de ação nascem a partir dessa clareza — o *porquê*
 
 ## 💬 3. Comunicação com consciência
 
-Usamos um **manual de acordos** para orientar a comunicação, adaptando o formato à necessidade:
+Usamos um **manual de acordos** para orientar a comunicação, adaptando o formato à necessidade:  
 - **Async** para pensamentos profundos ou documentação.  
 - **Curtas** para decisões objetivas.  
 - **Longas** quando o tema pede presença e empatia.
@@ -66,7 +66,7 @@ O processo é vivo e adaptável, nunca engessado.
 
 ## 🌺 6. O que é uma entrega completa
 
-Uma entrega está **pronta** quando:
+Uma entrega está **pronta** quando:  
 - Funciona com estabilidade.  
 - É **bela** por dentro e por fora.  
 - Transmite a **intenção original**, como uma música que vibra certa.  
@@ -88,7 +88,7 @@ Esse princípio protege a energia e o respeito mútuo.
 ## 🔄 8. Aprendizado e responsabilidade
 
 Erros são parte natural do fluxo.  
-O que importa é a **consciência e correção**:
+O que importa é a **consciência e correção**:  
 1. **Alerta** — reconhecer o desequilíbrio.  
 2. **Criação de norma** — aprender e evitar repetição.  
 3. **Advertência ou pena** — quando há descuido consciente.  
