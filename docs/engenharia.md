@@ -46,7 +46,7 @@ Tecnologias selecionadas e utilizadas pela empresa (em crescimento):
 
 | Tecnologia | Uso | Status |
 |------------|-----|--------|
-| Docker | Containerização | 📋 Planejado |
+| Docker | Containerização | ✅ Em uso |
 | Kubernetes | Orquestração | 📋 Planejado |
 | GitHub Actions | CI/CD | ✅ Em uso |
 
@@ -57,6 +57,16 @@ Tecnologias selecionadas e utilizadas pela empresa (em crescimento):
 | Git | Versionamento | ✅ Em uso |
 | GitHub | Repositórios | ✅ Em uso |
 | Windsurf | IDE com IA | ✅ Em uso |
+
+### Cloud
+
+| Tecnologia | Uso | Status |
+|------------|-----|--------|
+| Heroku | Infraestrutura | ✅ Em uso |
+| GitHub Pages Free Public | Infraestrutura | ✅ Em uso |
+| Google Cloud | Infraestrutura | ✅ Em uso |
+| Azure | Infraestrutura | 📋 Planejado |
+| AWS | Infraestrutura | 📋 Planejado |
 
 ---
 
