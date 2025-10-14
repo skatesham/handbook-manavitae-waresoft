@@ -1,7 +1,3 @@
-Excelente ponto — o texto atual do seu **Prompt-Mestre ManaVitae WareSoft** é muito bom como guia tático, mas está excessivamente centrado em “aplicativos Angular/FastAPI”. Abaixo está uma **versão reescrita e refinada**, mantendo toda a estrutura conceitual (claridade, rastreabilidade, qualidade e documentação), mas tornando-a **agnóstica de tecnologia e orientada a decisão arquitetural** — para que sirva como **framework de escolha e projeto de qualquer stack**.
-
----
-
 # 🧭 Prompt-Mestre WareSoft — Base para Projetos de Software (ManaVitae Framework)
 
 ### **Propósito**
