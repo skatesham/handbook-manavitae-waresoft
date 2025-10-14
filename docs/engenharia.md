@@ -12,8 +12,9 @@ Tecnologias selecionadas e utilizadas pela empresa (em crescimento):
 
 | Tecnologia | Uso | Status |
 |------------|-----|--------|
+| Angular 19 | Web apps legado e prototipos | ✅ Em uso |
 | Angular 20 | Web apps principais | ✅ Em uso |
-| Vue.js | Projetos específicos | 📋 Planejado |
+| Vue.js 3 | Projetos específicos | ✅ Em uso |
 | Ionic | Apps mobile híbridos | 📋 Planejado |
 | PrimeNG | UI Components | ✅ Em uso |
 | TailwindCSS | Styling | ✅ Em uso |
@@ -22,7 +23,7 @@ Tecnologias selecionadas e utilizadas pela empresa (em crescimento):
 
 | Tecnologia | Uso | Status |
 |------------|-----|--------|
-| FastAPI | APIs Python | 📋 Planejado |
+| FastAPI | APIs Python | ✅ Em uso |
 | Spring Boot | APIs Java | 📋 Planejado |
 | Node.js | APIs JavaScript | 📋 Planejado |
 
@@ -30,7 +31,7 @@ Tecnologias selecionadas e utilizadas pela empresa (em crescimento):
 
 | Tecnologia | Uso | Status |
 |------------|-----|--------|
-| PostgreSQL | Relacional principal | 📋 Planejado |
+| PostgreSQL | Relacional principal | ✅ Em uso |
 | MongoDB | NoSQL | 📋 Planejado |
 | Redis | Cache | 📋 Planejado |
 
