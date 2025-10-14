@@ -48,3 +48,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Guidelines Private
+docs/guidelines/
