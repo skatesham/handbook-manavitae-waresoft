@@ -53,34 +53,34 @@
 ## 🛠️ Stack e Arquitetura
 
 **Escolha com critério:**  
-- Problema > modismo
-- Produtividade > hype
-- Manutenção > perfeição inicial
+- Problema > modismo  
+- Produtividade > hype  
+- Manutenção > perfeição inicial  
 
 **Favoritos WareSoft:**  
-- **Frontend:** Angular 20 + PrimeNG + Tailwind / React + Next.js
-- **Backend:** FastAPI / NestJS / Spring Boot
-- **Banco:** PostgreSQL / MongoDB (conforme caso)
-- **Infra:** Docker + GitHub Actions + Cloud (GCP/AWS/Heroku)
+- **Frontend:** Angular 20 + PrimeNG + Tailwind / React + Next.js  
+- **Backend:** FastAPI / NestJS / Spring Boot  
+- **Banco:** PostgreSQL / MongoDB (conforme caso)  
+- **Infra:** Docker + GitHub Actions + Cloud (GCP/AWS/Heroku)  
 
-**Arquitetura:** Camadas claras, baixo acoplamento, testável.
+**Arquitetura:** Camadas claras, baixo acoplamento, testável.  
 
 ---
 
 ## ✨ Qualidade Sem Burocracia
 
 **O que sempre fazemos:**  
-- ✅ README claro (como rodar, decisões-chave)
-- ✅ Código com type safety e testes nos fluxos críticos
-- ✅ Segurança básica (auth, HTTPS, validação)
-- ✅ Acessibilidade AA quando tem interface
-- ✅ Deploy automatizado
+- ✅ README claro (como rodar, decisões-chave)  
+- ✅ Código com type safety e testes nos fluxos críticos  
+- ✅ Segurança básica (auth, HTTPS, validação)  
+- ✅ Acessibilidade AA quando tem interface  
+- ✅ Deploy automatizado  
 
-**O que fazemos quando faz sentido:**  
-- 📝 ADR para decisões complexas/controversas
-- 📊 Métricas e observabilidade (apps críticos)
-- 📚 Documentação extra (projetos grandes/compartilhados)
-- 🧪 Testes extensivos (regras de negócio complexas)
+**O que fazemos quando faz sentido:**   
+- 📝 ADR para decisões complexas/controversas  
+- 📊 Métricas e observabilidade (apps críticos)  
+- 📚 Documentação extra (projetos grandes/compartilhados)  
+- 🧪 Testes extensivos (regras de negócio complexas)  
 
 ---
 
