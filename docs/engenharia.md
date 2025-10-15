@@ -182,7 +182,16 @@ Padrões e práticas que buscamos manter:
 - **YAGNI**: You Aren't Gonna Need It
 - **DRY**: Don't Repeat Yourself
 - **Separation of Concerns**: Separação de responsabilidades
+- **Single Source of Truth**: Uma única fonte autoritativa para cada dado
 - **Convention over Configuration**: Convenção sobre configuração
+
+### Qualidade de Código
+- **Type Safety**: Tipagem forte e completa para prevenir erros
+- **Documentação Inline**: Comentários e JSDoc/docstrings quando necessário
+- **Baixo Acoplamento**: Componentes independentes e pouco dependentes
+- **Alta Coesão**: Elementos relacionados agrupados logicamente
+- **Testável**: Código estruturado para facilitar testes automatizados
+- **Código Limpo**: Legível, autoexplicativo e fácil de manter
 
 ---
 

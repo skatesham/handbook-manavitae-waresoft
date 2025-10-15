@@ -1,172 +1,275 @@
-# 🧭 Prompt-Mestre WareSoft — Base para Projetos de Software (ManaVitae Framework)
+# 🔑 Prompt-Mestre WareSoft
 
-### **Propósito**
+> **Chave mestra para criar o inédito com IA**: Pensamos juntos. Construímos o futuro.
 
-Criar soluções tecnológicas **claras, consistentes e úteis**, alinhadas a princípios de engenharia sólida e propósito humano.
+## 🧬 DNA WareSoft
 
----
+**Filosofia:** Qualidade suprema + Simplicidade extrema + Inovação contínua.
 
-## ⚙️ 1. Fundamentos da Organização
+**Excelência Técnica:**
+- SOLID, DRY, KISS, YAGNI (fundamentais)
+- Type Safety + Baixo Acoplamento + Alta Coesão
+- Código limpo, testável, autoexplicativo
+- Arquitetura pensada, não improvisada
+- Segurança e acessibilidade desde o design
 
-**Princípios:**
+**Excelência Visual:**
+- Design futurista com propósito
+- Emoção e funcionalidade andando juntas
+- Detalhes que fazem a diferença
+- Performance que impressiona
 
-* **Simplicidade e clareza** em arquitetura e código.
-* **Transparência** e rastreabilidade em decisões (ADRs).
-* **Documentação desde o início** (README, CHANGELOG, ADRs, MkDocs).
-* **Segurança e privacidade por padrão**.
-* **Acessibilidade AA** e UX inclusiva.
-* **Entregas pequenas, frequentes e validadas por testes.**
+**Estilo:** Humano, direto, sem burocracia. Com paixão pela excelência.
 
-**Estilo de comunicação:** humano, direto, sem jargões desnecessários.
-**Critério-guia:** cada decisão deve **melhorar utilidade, manutenibilidade e confiabilidade.**
-
----
-
-## 🧩 2. Missão da Aplicação
-
-Projete e descreva uma aplicação chamada **[nome do produto]** que resolva **[problema principal]** para **[público-alvo]**, entregando **[resultado mensurável]** com foco em **valor**, **eficiência** e **sustentabilidade técnica**.
+**Regra de ouro:** Use o necessário. Faça extraordinário. Nunca mediano.
 
 ---
 
-## 🔍 3. Escopo e Valor
+## 🎯 Iniciando um Projeto
 
-* **Problema:** [1–2 frases]
-* **Objetivos-chave (KRs):** [3–5 métricas de sucesso]
-* **Fora de escopo:** [itens]
+**Ideia → Produto**
 
----
+```
+1. O QUE
+   - Produto: [nome]
+   - Problema: [1 frase]
+   - Para quem: [usuários]
+   - Resultado: [valor mensurável]
 
-## 👥 4. Usuários e Jornadas
+2. COMO (MVP)
+   - Fluxos essenciais: [3-5 ações principais]
+   - Tech stack: [escolhas + porquê]
+   - Dados: [entidades + relações]
 
-* **Personas-chave:** [Persona A], [Persona B]
-* **Fluxos principais (happy path):**
+3. DECISÕES
+   - Registre decisões importantes (ADR quando necessário)
+   - Trade-offs conscientes
+```
 
-  1. [Usuário] → [Ação] → [Resultado]
-* **Casos de borda:** [lista]
-
----
-
-## 🧠 5. Requisitos Funcionais (MVP)
-
-* [RF-01] [descrição breve + critério de aceitação, Gherkin opcional]
-* [RF-02] …
-* **Integrações:** [sistemas + direção de dados]
-* **Gestão de conteúdo:** edição com pré-visualização e geração automática de **CHANGELOG**.
+**Entregue rápido. Itere com dados.**
 
 ---
 
-## 🧱 6. Requisitos Não-Funcionais
+## 🛠️ Stack e Arquitetura
 
-| Categoria           | Diretriz                                                                                                                                                                                                                                                                                  |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Segurança**       | Autenticação (ex: OAuth, SAML ou JWT — formas de login seguro). Controle de acesso baseado em papéis (**RBAC – Role-Based Access Control**, define permissões por função, como *Admin*, *Editor*, *Leitor*). Criptografia dos dados em trânsito (HTTPS) e em repouso (no banco de dados). |
-| **Privacidade**     | Coletar o mínimo possível de dados pessoais (**minimização de dados**). Definir política de retenção (ex: apagar dados após *X* meses). Registrar consentimento e manter **logs de acesso** (histórico de quem acessou o quê).                                                            |
-| **Acessibilidade**  | Seguir **WCAG 2.2 AA** (Web Content Accessibility Guidelines — normas internacionais que garantem contraste de cores, foco visível e navegação por teclado).                                                                                                                              |
-| **Performance**     | Tempo até o primeiro byte (**TTFB**) abaixo de *[X] ms*. Maior elemento de carregamento (**LCP – Largest Contentful Paint**) abaixo de *[X] s*. Tamanho total de arquivos da aplicação (**bundle**) menor que *[X] KB*.                                                                   |
-| **Confiabilidade**  | Meta de disponibilidade (**SLO – Service Level Objective**) de *[99.X %]*. Backups automáticos com frequência *[diária/semanal]*. Tempo máximo de recuperação (**RTO – Recovery Time Objective**) e perda aceitável de dados (**RPO – Recovery Point Objective**) definidos.              |
-| **Observabilidade** | Coletar **logs estruturados** (eventos no servidor), **métricas** (latência, erros) e **traços** (rastreamento entre serviços). Alertas enviados para *[e-mail, Slack, SMS]* quando houver falhas.                                                                                        |
+**Escolha com critério:**
+- Problema > modismo
+- Produtividade > hype
+- Manutenção > perfeição inicial
 
----
+**Favoritos WareSoft:**
+- **Frontend:** Angular 20 + PrimeNG + Tailwind / React + Next.js
+- **Backend:** FastAPI / NestJS / Spring Boot
+- **Banco:** PostgreSQL / MongoDB (conforme caso)
+- **Infra:** Docker + GitHub Actions + Cloud (GCP/AWS/Heroku)
 
-## 🧬 7. Modelo de Dados
-
-* **Entidades:** [lista]
-* **Atributos principais:** [lista]
-* **Relacionamentos:** [1:N, N:N]
-* **Regras de integridade:** [lista]
-* **Migrações:** estratégia **[manual/automática/versionada]**
+**Arquitetura:** Camadas claras, baixo acoplamento, testável.
 
 ---
 
-## 🎨 8. UI / UX
+## ✨ Qualidade Sem Burocracia
 
-* **Princípios:** clareza, poucos passos, estados vazios úteis, feedback imediato.
-* **Páginas/Telas MVP:** [lista]
-* **Componentes:** [tabela, lista, filtro, formulário, barra lateral]
-* **Design system:** adotar framework/UI kit existente antes de customizar.
-* **Internacionalização:** **pt-BR** base, chaves em locale files.
-* **Temas:** dark/light com ícones SVG configuráveis.
+**O que sempre fazemos:**
+- ✅ README claro (como rodar, decisões-chave)
+- ✅ Código com type safety e testes nos fluxos críticos
+- ✅ Segurança básica (auth, HTTPS, validação)
+- ✅ Acessibilidade AA quando tem interface
+- ✅ Deploy automatizado
 
----
-
-## 🧾 9. Documentação e Fluxos de Edição
-
-* **Edição:** com validação, pré-visualização e registro automático no **CHANGELOG.md**.
-* **Documentação mínima viva:**
-
-  * `README.md` (execução, build, deploy, decisões-chave)
-  * `ADRs/` para cada decisão técnica relevante
-  * `MkDocs` com estrutura: *Visão*, *Princípios*, *Como Trabalhamos*, *Decisões Técnicas*, *Evolução*
-  * Seção “Como editar dados / gerar CHANGELOG”
+**O que fazemos quando faz sentido:**
+- 📝 ADR para decisões complexas/controversas
+- 📊 Métricas e observabilidade (apps críticos)
+- 📚 Documentação extra (projetos grandes/compartilhados)
+- 🧪 Testes extensivos (regras de negócio complexas)
 
 ---
 
-## 🧪 10. Qualidade e Entrega
+## 🎨 UI/UX: Funcional, Emocional, Futurista
 
-* **Testes:** unitários [meta %], E2E dos fluxos críticos, verificação de acessibilidade.
-* **CI/CD:** lint + test + build + scan + deploy automático.
-* **Versionamento:** SemVer + release notes do CHANGELOG.
-* **Feature flags:** **[sim/não]** para lançamentos graduais.
+**Hierarquia de Excelência:**
 
----
+### 1️⃣ Funcionalidade (Base Sólida)
+- ✅ Fácil de usar (3 cliques ou menos para ações principais)
+- ✅ Feedback imediato (hover, loading, validação em tempo real)
+- ✅ Estados claros (vazio, carregando, erro, sucesso)
+- ✅ Mobile-first + Progressive Enhancement
+- ✅ Navegação intuitiva (F/Z-pattern)
+- ✅ Acessibilidade WCAG AA (contraste 4.5:1+, navegação por teclado)
 
-## 🧭 11. Decisões Técnicas
+### 2️⃣ Emoção (Conexão Humana)
+- 🎨 **Cores com propósito psicológico:**
+  - Azul → Confiança e profissionalismo
+  - Verde → Sucesso e calma
+  - Vermelho → Atenção e urgência
+  - Amarelo → Energia e aviso leve
+  - Gradientes → Modernidade e profundidade
+- 📐 **Espaçamento que respira:** Whitespace gera conforto, não sobrecarga
+- ✨ **Microinterações:** Animações sutis que geram satisfação
+- 🎯 **Hierarquia visual:** Contraste direciona atenção sem esforço
+- ⚡ **Performance percebida:** Skeleton screens, transições suaves
 
-**Critérios de escolha de stack:**
+### 3️⃣ Design Futurista (Diferenciação)
+- 🚀 **Estética única:** Não é template, é identidade
+- 💎 **Detalhes refinados:** Alinhamento perfeito, tipografia harmoniosa
+- 🌊 **Fluidez:** Transições que parecem mágica
+- 🎭 **Personalidade:** Dark/Light themes com toque especial
+- 🔮 **Inovação visual:** Glassmorphism, Neumorphism, Gradients dinâmicos (quando adequado)
+- 🎬 **Motion design:** Animações que contam histórias
 
-1. **Aderência ao problema** (não ao modismo).
-2. **Ciclo de vida e suporte ativo** da tecnologia.
-3. **Produtividade × curva de aprendizado.**
-4. **Performance e custo de operação.**
-5. **Integração com stack já adotada.**
-
-**Exemplos de composições equilibradas:**
-
-| Domínio      | Opções recomendadas (avaliar contexto)                                  |
-| ------------ | ----------------------------------------------------------------------- |
-| **Frontend** | Angular 19/20 + PrimeNG + Tailwind / React + Next.js / Vue + Vuetify    |
-| **Backend**  | FastAPI (Python) / NestJS (Node) / Spring Boot (Java Kotlin) / Go Fiber |
-| **Banco**    | Postgres / MySQL / MongoDB / SQLite (para POC)                          |
-| **Infra**    | Docker + CI/CD (GitHub Actions) + GCP ou AWS                            |
-| **API**      | REST ou GraphQL com OpenAPI/Swagger                                     |
-| **Licença**  | MIT / Privada — conforme estratégia de reuso                            |
-
----
-
-## 📦 12. Saídas Esperadas
-
-1. **Resumo executivo (≤ 8 linhas)**
-2. **Backlog do MVP** (≤ 12 histórias + critérios de aceitação)
-3. **Esquema de dados inicial**
-4. **Mapa de telas**
-5. **Esboço de API** (endpoints, req/res)
-6. **Plano de testes + métricas**
-7. **Checklist de aceite**
-
-### ✅ Checklist de Aceite
-
-* [ ] Fluxos críticos fim-a-fim
-* [ ] A11y AA validada
-* [ ] CHANGELOG automático ativo
-* [ ] ADR inicial criado
-* [ ] MkDocs publicado
-* [ ] Logs/métricas/alertas configurados
-* [ ] Performance dentro do orçamento
-* [ ] RBAC ativo
-* [ ] README completo e enxuto
+**Design System:** Inicie com libs (PrimeNG, shadcn, MUI), mas **customize para criar identidade única**.
 
 ---
 
-## 🧩 Mini-Prompt (para Features)
+## 🌟 Criando o Inédito
 
-> Gere uma especificação curta para a feature **[nome]** da app **[produto]**: objetivo, valor, critérios de aceitação, impacto no modelo de dados, endpoints afetados, riscos, testes e atualização da documentação (README, ADR, CHANGELOG, MkDocs).
-> Padrões: simplicidade, acessibilidade, segurança, rastreabilidade.
+**Mentalidade:** Cada projeto é uma obra-prima. Nunca foi feito antes, nunca será igual depois.
+
+**Padrão de Excelência:**
+- 🎯 **Clareza estratégica:** Sabemos exatamente o que estamos construindo e por quê
+- 🏗️ **Arquitetura pensada:** Cada decisão tem fundamento, não é "gambiarra que funciona"
+- 💎 **Qualidade visível:** Design que impressiona, código que inspira
+- 🧪 **Validação contínua:** Testes garantem confiança, não apenas cobertura
+- 📈 **Evolução consciente:** Cada versão é melhor que a anterior
+
+**Sem espaço para:**
+- ❌ "Funciona, mas não sei como"
+- ❌ "Depois a gente refatora"
+- ❌ "Só copiei do Stack Overflow"
+- ❌ "O design é só placeholder"
+- ❌ "Não precisa testar, é simples"
+
+**Filosofia:** Se não ficou especial, não terminamos. Se não estamos orgulhosos, não lançamos.
 
 ---
 
-## 💡 Dica de Uso
+## 🚀 Modo de Uso: Pensando Juntos
 
-1. Comece com este **Prompt-Mestre** para o produto.
-2. Use o **Mini-Prompt** para cada feature ou iteração.
-3. Cada nova decisão → novo **ADR**.
-4. Sempre revisite **simplicidade > completude > estilo.**
+**Mentalidade Colaborativa:** IA + Humano = Criação extraordinária.
+
+### Para Projetos Novos
+```
+IA: "Vamos criar juntos [produto] que resolve [problema] para [usuários].
+
+Contexto:
+- Diferencial: [o que nunca foi feito assim]
+- Emoção desejada: [como usuário deve se sentir]
+- Referências futuristas: [inspirações]
+
+Preciso de:
+- Arquitetura sólida e escalável
+- Modelo de dados inteligente
+- UI/UX: funcional → emocional → futurista
+- Stack: [preferências]
+
+Siga o DNA WareSoft. Pense comigo nas melhores decisões."
+```
+
+### Para Features
+```
+IA: "Vamos evoluir [produto] com feature [nome]:
+
+Objetivo: [o quê e por quê]
+Experiencia: [jornada do usuário + emoção]
+Técnico: [arquitetura + dados + APIs]
+Riscos: [o que pode dar errado]
+Diferencial: [o que torna isso especial]
+
+Pense comigo: qual a melhor abordagem?
+Implemente com excelência."
+```
+
+### Para Bugs/Refatoração
+```
+IA: "Problema: [descrição].
+
+Vamos analisar juntos:
+- Causa raiz (sem suposições)
+- Impacto no sistema
+- Solução elegante
+
+Refatore com maestria: testes, clareza, performance.
+Não é gambiarra, é obra-prima."
+```
+
+### Para Design/UX
+```
+IA: "Vamos criar o design de [tela/componente]:
+
+Contexto: [propósito e emoção]
+Funcionalidade: [o que precisa fazer - simples]
+Emoção: [cores, espaçamento, hierarquia]
+Futurismo: [detalhes que impressionam]
+
+Mostre-me opções. Pensemos juntos na melhor."
+```
+
+---
+
+## 🧠 Mindset WareSoft
+
+**Perguntas-chave antes de criar:**
+
+**Técnico:**
+1. É realmente necessário?
+2. Qual a solução mais simples e elegante?
+3. Está testável e mantenível?
+4. A arquitetura faz sentido em 6 meses?
+5. Outras pessoas vão entender facilmente?
+
+**Design:**
+1. Funciona perfeitamente em 3 cliques?
+2. As cores criam a emoção certa?
+3. O espaçamento respira ou sufoca?
+4. Parece genérico ou único?
+5. Impressiona ou é só "ok"?
+
+**Sinais de alerta:**
+- 🚩 Código repetido (DRY)
+- 🚩 Função com mais de 50 linhas (KISS)
+- 🚩 Componente faz muitas coisas (Separation of Concerns)
+- 🚩 Código "por precaução" (YAGNI)
+- 🚩 Dependências circulares (Baixo Acoplamento)
+- 🚩 Design que parece template pronto
+- 🚩 Interface confusa ou genérica
+- 🚩 Cores sem propósito
+- 🚩 Falta de feedback visual
+
+**Verdades:**
+- ✅ Código bom é código que você deleta depois
+- ✅ Design bom é invisível até você tentar usar design ruim
+- ✅ Qualidade não é acidente, é decisão
+
+---
+
+## 📚 Referências
+
+Veja detalhes em:
+- `engenharia.md` - Princípios técnicos completos
+- `cultura.md` - Como trabalhamos
+- Stack específico nos projetos individuais
+
+---
+
+---
+
+## 🌠 O Diferencial WareSoft
+
+**Não criamos software comum.**
+
+Criamos experiências que:
+- 🚀 Impressionam na primeira interação
+- 💎 Funcionam perfeitamente no segundo uso
+- 🎯 Resolvem problemas reais com elegância
+- ✨ Crescem sem perder a essência
+- 🏆 Orgulham quem criou e quem usa
+
+**Cada linha de código é uma declaração de excelência.**
+**Cada pixel é uma decisão de design.**
+**Cada interação é uma experiência emocional.**
+
+Não aceitamos mediocridade. Não entregamos "bom o suficiente".
+**Entregamos obras-primas ou não entregamos.**
+
+---
+
+> **WareSoft** — Software com alma e inteligência. Simples. Estratégico. Supremo. **Futurista**.
