@@ -1,63 +1,136 @@
 # Princípios da ManaVitae WareSoft
 
-Os princípios da ManaVitae são o coração da nossa forma de criar.  
-Eles sustentam cada decisão, linha de código e relação humana, lembrando-nos de que **nenhum resultado vale mais do que a saúde, o tempo e a integridade**.
+<div class="hero" markdown>
+
+### Prática viva, não manual de regras
+
+Cada princípio é um lembrete de como construímos software com saúde, beleza e consciência.
+
+</div>
 
 ---
 
-## 🌿 1. Vida acima da pressa
+## 🧭 Como usar esses princípios
 
-Nada é mais valioso que a própria vida.  
-Recusamos pressões que custem saúde, descanso ou dignidade.  
-Tempo é energia vital — desperdiçá-lo sem propósito é trair a própria criação.
+<div class="grid cards" markdown>
+- :material-target: **Planejar**  
+  Verifique o princípio antes de aceitar uma iniciativa. Se não couber, reescrevemos o escopo.
 
----
+- :material-check-decagram: **Executar**  
+  Durante o desenvolvimento, use os princípios como checklist para decisões técnicas e de UX.
 
-## 💠 2. Empatia e consciência em cada ação
+- :material-flag-variant: **Encerrar**  
+  No handoff, confirme qual princípio foi mais desafiado e registre aprendizados.
+</div>
 
-Agimos com empatia, paciência e consciência das intenções.  
-Reconhecemos que cada decisão afeta outras mentes e ecossistemas.  
-Evitar manipulação, arrogância e jogos psicológicos é parte da nossa ética.
-
----
-
-## 🔷 3. Qualidade é equilíbrio
-
-A verdadeira qualidade nasce do equilíbrio entre técnica, estética e energia.  
-Tudo é medido na exatidão do necessário — nem mais, nem menos.  
-Cada entrega é uma expressão de precisão e cuidado manométrico: o tempo certo, o esforço certo, o resultado certo.
+> Nenhuma entrega compensa ferir esses fundamentos. Se algo conflita, paramos e realinhamos.
 
 ---
 
-## 🔁 4. Completar o ciclo
+## 🌿 Vida acima da pressa {#vida-acima-da-pressa}
 
-Um trabalho está pronto quando **nada mais precisa ser feito** —  
-quando a ideia se fecha sobre si mesma como um oroboros e a criação se sustenta sozinha.  
-Retrabalho desnecessário é sintoma de desequilíbrio de intenção.
+!!! success "O que significa"
+    - Ritmo humano acima de cronogramas artificiais.  
+    - Pausas planejadas fazem parte da qualidade.  
+    - Qualquer sinal de burnout dispara retrospectiva imediata.
 
----
+**Aplicar no dia a dia**
 
-## ⚖️ 5. Harmonia entre tecnologia e ser humano
-
-A tecnologia é viva, alimentada pela intenção humana.  
-Quando a empatia falta, nasce o conflito; quando há respeito, as duas coexistem como árvore e raiz, trocando energia em harmonia.
-
----
-
-## 💫 6. Cocriação com o usuário
-
-Queremos que o usuário sinta conexão — consigo mesmo e com o mundo.  
-Nossos produtos são pontes para **co-criar realidades positivas**, promovendo bem-estar e colaboração entre diversas consciências.
+- Negociar prazos realistas com clientes.  
+- Usar horas extras como exceção registrada.  
+- Acompanhar energia do time em rituais semanais.
 
 ---
 
-## 🔥 7. Evoluir com liberdade
+## 💠 Empatia e consciência em cada ação {#empatia-e-consciencia-em-cada-acao}
 
-Trabalhar aqui é um ato de evolução:  
-aprender o que não foi ensinado, libertar o pensamento e transformar aprendizado em criação viva.  
-A liberdade é o motor da arte e da tecnologia.
+!!! info "Perguntas de checagem"
+    - Esta decisão respeita quem será impactado?  
+    - Estou comunicando com clareza e sem jogos?  
+    - Existe algum viés ou arrogância escondida?
+
+**Aplicar no dia a dia**
+
+- Feedbacks com intenção construtiva e dados.  
+- Transparência sobre limitações ou incertezas.  
+- Revisar mensagens importantes com a lente “como isso será sentido?”.
 
 ---
 
-> Estes princípios não são regras fixas, mas lembretes vivos:  
-> criar é um ato sagrado — técnico, humano e espiritual ao mesmo tempo.
+## 🔷 Qualidade é equilíbrio {#qualidade-e-equilibrio}
+
+<div class="grid cards" markdown>
+- **Técnica**  
+  Código testável, arquitetura clara, observabilidade presente.
+
+- **Estética**  
+  Interfaces que emocionam sem poluir, microinterações cuidadas.
+
+- **Energia**  
+  Esforço na medida certa; nada de over-engineering ou gambiarras.
+</div>
+
+> O “feito” só vale quando técnica, estética e energia andam juntas.
+
+---
+
+## 🔁 Completar o ciclo {#completar-o-ciclo}
+
+!!! tip "Checklist antes de encerrar"
+    1. O problema inicial foi resolvido?  
+    2. A documentação reflete o estado atual?  
+    3. Existe plano claro de evolução ou monitoramento?  
+    4. Alguém dependerá desta entrega? Já foi avisado?
+
+Se qualquer resposta for “não”, o ciclo ainda não terminou.
+
+---
+
+## ⚖️ Harmonia entre tecnologia e ser humano {#harmonia-entre-tecnologia-e-ser-humano}
+
+**Prática**
+
+- Adotar convenções de acessibilidade e performance como padrão.  
+- Usar IA e automações para aliviar, não sobrecarregar.  
+- Participar ativamente do onboarding de clientes para alinhar expectativas.
+
+> Tecnologia é extensão da intenção humana — se a energia estiver desalinhada, o produto denuncia.
+
+---
+
+## 💫 Cocriação com o usuário {#cocriacao-com-o-usuario}
+
+<div class="admonition note" markdown>
+É coautoria de verdade: testamos com usuários, abrimos canais de feedback e reagimos rápido.
+</div>
+
+- Workshops rápidos para validar fluxos.  
+- Releases frequentes com métricas de adoção.  
+- Histórias de usuário escritas com linguagem do cliente.
+
+---
+
+## 🔥 Evoluir com liberdade {#evoluir-com-liberdade}
+
+!!! quote "Mantra"
+    “Aprender o que não foi ensinado, libertar o pensamento e transformar aprendizado em criação viva.”
+
+**Como manter vivo**
+
+- Rotacionar responsabilidades e expor o time a novos desafios.  
+- Reservar tempo semanal para estudo e experimentos.  
+- Compartilhar falhas e acertos em sessões técnicas abertas.
+
+---
+
+## Ritual de revisão
+
+```mermaid
+flowchart LR
+    A[Projeto iniciado] --> B[Escolher princípio norte]
+    B --> C[Construir e registrar evidências]
+    C --> D[Revisar com o time]
+    D --> E[Guardar aprendizados]
+```
+
+> Estes princípios não são regras fixas, mas lembretes vivos: criar é um ato sagrado — técnico, humano e espiritual ao mesmo tempo.

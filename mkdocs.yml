@@ -34,14 +34,34 @@ theme:
 plugins:
   - search
 
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+  - md_in_html
+
 nav:
   - 🏠 Início: index.md
   - 🌿 Motivo: motivo.md
   - 💎 Princípios: principios.md
   - ⚙️ Como Trabalhamos: como-trabalhamos.md
   - 🌱 Crescimento: crescimento.md
+  - 🤝 Contrato com Cliente: contrato-cliente.md
   - 🛠️ Engenharia de Software: engenharia.md
-  - 💰 Financeiro: financeiro.md
+  - 💰 Monetização de App: financeiro.md
   - 📝 Prompt-Mestre: prompt-mestre.md
   - 🧠 Decisões Técnicas:
       - ADR 0001 - Angular 20 Zoneless + PrimeNG + TailwindCSS: adr/0001-angular20-primeng-tailwind.md

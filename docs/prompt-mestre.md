@@ -1,34 +1,38 @@
 # 🔑 Prompt-Mestre WareSoft
 
-> **Chave mestra para criar o inédito com IA**: Pensamos juntos. Construímos o futuro.
+<div class="hero" markdown>
+
+### Chave mestra para criar o inédito com IA
+
+Pensamos juntos. Construímos o futuro.
+
+</div>
+
+---
 
 ## 🧬 DNA WareSoft
 
-**Filosofia:** Qualidade suprema + Simplicidade extrema + Inovação contínua.
+<div class="grid cards" markdown>
+- :material-dna: **Filosofia**  
+  Qualidade suprema + Simplicidade extrema + Inovação contínua.
 
-**Excelência Técnica:**
-- SOLID, DRY, KISS, YAGNI (fundamentais)
-- Type Safety + Baixo Acoplamento + Alta Coesão
-- Código limpo, testável, autoexplicativo
-- Arquitetura pensada, não improvisada
-- Segurança e acessibilidade desde o design
+- :material-chip: **Excelência técnica**  
+  SOLID, DRY, KISS, YAGNI · Type safety · Baixo acoplamento · Alta coesão · Segurança e acessibilidade desde o design.
 
-**Excelência Visual:**
-- Design futurista com propósito
-- Emoção e funcionalidade andando juntas
-- Detalhes que fazem a diferença
-- Performance que impressiona
+- :material-palette-advanced: **Excelência visual**  
+  Design futurista com propósito, emoção e funcionalidade juntas, performance impecável.
 
-**Estilo:** Humano, direto, sem burocracia. Com paixão pela excelência.
+- :material-gesture: **Estilo**  
+  Humano, direto, sem burocracia. Fazer o necessário com excelência. Nunca mediano.
+</div>
 
-**Regra de ouro:** Use o necessário. Faça extraordinário. Nunca mediano.
+> **Regra de ouro:** Use o necessário. Faça extraordinário. Nunca mediano.
 
 ---
 
 ## 🎯 Iniciando um Projeto
 
-**Ideia → Produto**
-
+=== "Ideia → Produto"
 ```
 1. O QUE
    - Produto: [nome]
@@ -42,28 +46,38 @@
    - Dados: [entidades + relações]
 
 3. DECISÕES
-   - Registre decisões importantes (ADR quando necessário)
+   - Registre decisões importantes
    - Trade-offs conscientes
 ```
 
-**Entregue rápido. Itere com dados.**
+=== "Sprint Zero"
+1. Clarifique o valor e os riscos.  
+2. Desenhe arquitetura mínima viável.  
+3. Defina critérios de sucesso (negócio + UX + técnico).  
+4. Configure ambientes e automações essenciais.  
+5. Liste hipóteses que serão testadas primeiro.
+
+> Entregue rápido. Itere com dados.
 
 ---
 
 ## 🛠️ Stack e Arquitetura
 
-**Escolha com critério:**  
-- Problema > modismo  
-- Produtividade > hype  
-- Manutenção > perfeição inicial  
+!!! info "Como escolhemos"
+    - Problema > modismo
+    - Produtividade > hype
+    - Manutenção > perfeição inicial
 
-**Favoritos WareSoft:**  
-- **Frontend:** Angular 20 + PrimeNG + Tailwind / React + Next.js  
-- **Backend:** FastAPI / NestJS / Spring Boot  
-- **Banco:** PostgreSQL / MongoDB (conforme caso)  
-- **Infra:** Docker + GitHub Actions + Cloud (GCP/AWS/Heroku)  
+**Favoritos WareSoft:**
 
-**Arquitetura:** Camadas claras, baixo acoplamento, testável.  
+| Camada | Stack preferida | Notas |
+| --- | --- | --- |
+| Frontend | Angular 20 + PrimeNG + Tailwind / React + Next.js | Customização para criar identidade única |
+| Backend | FastAPI · NestJS · Spring Boot | Type safety, testes fáceis, modularização |
+| Banco | PostgreSQL / MongoDB | Escolha guiada por domínio e escala |
+| Infra | Docker · GitHub Actions · Cloud (GCP/AWS/Heroku) | Deploy automatizado e observável |
+
+> Arquitetura = camadas claras, baixo acoplamento, testes em todos os pontos críticos.
 
 ---
 
@@ -84,39 +98,27 @@
 
 ---
 
-## 🎨 UI/UX: Funcional, Emocional, Futurista
+## 🎨 UI/UX: Funcional → Emocional → Futurista
 
-**Hierarquia de Excelência:**
+=== "1️⃣ Funcionalidade"
+- 3 cliques ou menos para fluxos principais.
+- Feedback imediato (hover, loading, validações).
+- Estados claros (vazio, erro, sucesso, loading).
+- Mobile-first + Progressive Enhancement.
+- Acessibilidade WCAG AA (contraste 4.5:1+, teclado).
 
-### 1️⃣ Funcionalidade (Base Sólida)
-- ✅ Fácil de usar (3 cliques ou menos para ações principais)
-- ✅ Feedback imediato (hover, loading, validação em tempo real)
-- ✅ Estados claros (vazio, carregando, erro, sucesso)
-- ✅ Mobile-first + Progressive Enhancement
-- ✅ Navegação intuitiva (F/Z-pattern)
-- ✅ Acessibilidade WCAG AA (contraste 4.5:1+, navegação por teclado)
+=== "2️⃣ Emoção"
+- Paleta com propósito psicológico (Azul = confiança, Verde = calma, etc.).
+- Espaçamento que respira, tipografia coerente.
+- Microinterações sutis e hierarquia visual forte.
+- Performance percebida com skeletons e transições suaves.
 
-### 2️⃣ Emoção (Conexão Humana)
-- 🎨 **Cores com propósito psicológico:**
-  - Azul → Confiança e profissionalismo
-  - Verde → Sucesso e calma
-  - Vermelho → Atenção e urgência
-  - Amarelo → Energia e aviso leve
-  - Gradientes → Modernidade e profundidade
-- 📐 **Espaçamento que respira:** Whitespace gera conforto, não sobrecarga
-- ✨ **Microinterações:** Animações sutis que geram satisfação
-- 🎯 **Hierarquia visual:** Contraste direciona atenção sem esforço
-- ⚡ **Performance percebida:** Skeleton screens, transições suaves
+=== "3️⃣ Futurismo com propósito"
+- Estética autoral (sem cara de template).
+- Detalhes refinados, motion narrativo, gradientes dinâmicos quando cabem.
+- Temas dark/light com personalidade.
 
-### 3️⃣ Design Futurista (Diferenciação)
-- 🚀 **Estética única:** Não é template, é identidade  
-- 💎 **Detalhes refinados:** Alinhamento perfeito, tipografia harmoniosa
-- 🌊 **Fluidez:** Transições que parecem mágica
-- 🎭 **Personalidade:** Dark/Light themes com toque especial
-- 🔮 **Inovação visual:** Glassmorphism, Neumorphism, Gradients dinâmicos (quando adequado)
-- 🎬 **Motion design:** Animações que contam histórias
-
-**Design System:** Inicie com libs (PrimeNG, shadcn, MUI), mas **customize para criar identidade única**.
+> Baseie-se em libs (PrimeNG, shadcn, MUI) apenas como ponto de partida. Customização é obrigatória.
 
 ---
 
@@ -144,64 +146,63 @@
 
 ## 🚀 Modo de Uso: Pensando Juntos
 
-**Mentalidade Colaborativa:** IA + Humano = Criação extraordinária.
+**Mentalidade Colaborativa:** IA + Humano = criação extraordinária.
 
-### Para Projetos Novos
-```
-IA: "Vamos criar juntos [produto] que resolve [problema] para [usuários].
+=== "Projetos novos"
+    ```
+    IA: "Vamos criar juntos [produto] que resolve [problema] para [usuários].
 
-Contexto:  
-- Diferencial: [o que nunca foi feito assim]  
-- Emoção desejada: [como usuário deve se sentir]  
-- Referências futuristas: [inspirações]  
+    Contexto:
+    - Diferencial: [o que nunca foi feito assim]
+    - Emoção desejada: [como o usuário deve se sentir]
+    - Referências futuristas: [inspirações]
 
-Preciso de:  
-- Arquitetura sólida e escalável  
-- Modelo de dados inteligente  
-- UI/UX: funcional → emocional → futurista  
-- Stack: [preferências]  
+    Preciso de:
+    - Arquitetura sólida e escalável
+    - Modelo de dados inteligente
+    - UI/UX funcional → emocional → futurista
+    - Stack: [preferências]
 
-Siga o DNA WareSoft. Pense comigo nas melhores decisões."
-```
+    Siga o DNA WareSoft e decida comigo."
+    ```
 
-### Para Features
-```
-IA: "Vamos evoluir [produto] com feature [nome]:  
+=== "Features"
+    ```
+    IA: "Vamos evoluir [produto] com a feature [nome].
 
-Objetivo: [o quê e por quê]  
-Experiencia: [jornada do usuário + emoção]  
-Técnico: [arquitetura + dados + APIs]  
-Riscos: [o que pode dar errado]  
-Diferencial: [o que torna isso especial]  
-  
-Pense comigo: qual a melhor abordagem?  
-Implemente com excelência."  
-```
+    Objetivo: [o quê e por quê]
+    Experiência: [jornada + emoção]
+    Técnico: [arquitetura + dados + APIs]
+    Riscos: [pontos de atenção]
+    Diferencial: [o que torna único]
 
-### Para Bugs/Refatoração
-```
-IA: "Problema: [descrição].  
+    Qual a melhor abordagem? Entregue com excelência."
+    ```
 
-Vamos analisar juntos:  
-- Causa raiz (sem suposições)  
-- Impacto no sistema  
-- Solução elegante  
+=== "Bugs / Refatoração"
+    ```
+    IA: "Problema: [descrição].
 
-Refatore com maestria: testes, clareza, performance.
-Não é gambiarra, é obra-prima."
-```
+    Vamos analisar:
+    - Causa raiz (sem suposições)
+    - Impacto no sistema
+    - Solução elegante
 
-### Para Design/UX
-```
-IA: "Vamos criar o design de [tela/componente]:  
+    Refatore com testes, clareza e performance.
+    Nada de gambiarras."
+    ```
 
-Contexto: [propósito e emoção]  
-Funcionalidade: [o que precisa fazer - simples]  
-Emoção: [cores, espaçamento, hierarquia]  
-Futurismo: [detalhes que impressionam]  
+=== "Design / UX"
+    ```
+    IA: "Vamos desenhar [tela/componente].
 
-Mostre-me opções. Pensemos juntos na melhor."
-```
+    Contexto: [propósito e emoção]
+    Funcionalidade: [fluxo essencial]
+    Emoção: [cores, espaçamento, hierarquia]
+    Futurismo: [detalhes que impressionam]
+
+    Traga múltiplas opções."
+    ```
 
 ---
 
@@ -238,17 +239,6 @@ Mostre-me opções. Pensemos juntos na melhor."
 - ✅ Código bom é código que você deleta depois  
 - ✅ Design bom é invisível até você tentar usar design ruim  
 - ✅ Qualidade não é acidente, é decisão  
-
----
-
-## 📚 Referências
-
-Veja detalhes em:  
-- `engenharia.md` - Princípios técnicos completos  
-- `cultura.md` - Como trabalhamos
-- Stack específico nos projetos individuais  
-
----
 
 ---
 

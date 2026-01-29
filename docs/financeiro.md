@@ -1,180 +1,113 @@
-# Financeiro e Sustentabilidade
+# Monetização de App
 
-Estratégias de monetização e análise de custos operacionais da ManaVitae WareSoft.
+<div class="hero" markdown>
 
----
+### Receita saudável, custos sob controle
 
-## 💰 Modelos de Monetização
+Guiamo-nos por um mix equilibrado de modelos de monetização e decisões financeiras conscientes para manter produtos vivos e sustentáveis.
 
-Formas clássicas e seguras de gerar receita com aplicações:
-
-### SaaS (Software as a Service)
-
-| Modelo | Descrição | Vantagens | Exemplos |
-|--------|-----------|-----------|----------|
-| **Assinatura Mensal/Anual** | Pagamento recorrente para uso contínuo | Receita previsível, alta retenção | Spotify, Netflix, Notion |
-| **Freemium** | Versão gratuita + recursos premium pagos | Baixa barreira de entrada, conversão gradual | Slack, Trello, Figma |
-| **Planos por Uso** | Cobrança baseada em consumo (API calls, storage) | Justo para cliente, escala com uso | AWS, Twilio, SendGrid |
-| **Por Usuário** | Preço multiplicado por quantidade de usuários | Cresce com cliente, previsível | GitHub, Zoom, Asana |
-| **Tiered Pricing** | Múltiplos planos (Básico, Pro, Enterprise) | Atende diferentes perfis, maximiza receita | Mailchimp, HubSpot |
-
-### Licenciamento
-
-| Modelo | Descrição | Vantagens | Exemplos |
-|--------|-----------|-----------|----------|
-| **Licença Perpétua** | Pagamento único, uso vitalício | Alto ticket inicial, receita imediata | Photoshop (antigo), Office (antigo) |
-| **Licença por Projeto** | Uma licença por projeto desenvolvido | Flexível, adequado para agências | Themes, templates |
-| **White Label** | Software personalizado para marca do cliente | Alto valor, contratos longos | Soluções enterprise |
-
-### Marketplace e Transações
-
-| Modelo | Descrição | Vantagens | Exemplos |
-|--------|-----------|-----------|----------|
-| **Comissão** | % sobre transações realizadas na plataforma | Escala com volume, alinhado ao sucesso | Shopify, Stripe, Uber |
-| **Marketplace** | Venda de plugins, templates, extensões | Ecossistema, receita passiva | WordPress, Shopify Apps |
-| **Lead Generation** | Venda de leads qualificados | Alto valor por lead, B2B | Capterra, G2 |
-
-### Serviços Complementares
-
-| Modelo | Descrição | Vantagens | Exemplos |
-|--------|-----------|-----------|----------|
-| **Consultoria** | Horas de consultoria técnica | Alto valor/hora, relacionamento | Agencies especializadas |
-| **Implementação** | Serviço de setup e configuração | Ticket alto, acelera adoção | Salesforce, SAP |
-| **Treinamento** | Cursos, workshops, certificações | Margem alta, autoridade | HubSpot Academy |
-| **Suporte Premium** | SLA diferenciado, atendimento prioritário | Adicional recorrente | GitHub Enterprise |
-
-### Publicidade e Dados
-
-| Modelo | Descrição | Vantagens | Considerações |
-|--------|-----------|-----------|---------------|
-| **Anúncios** | Display, native ads no app | Escalável com tráfego | Pode prejudicar UX |
-| **Sponsored Content** | Conteúdo patrocinado integrado | Menos intrusivo | Requer audiência grande |
-| **Dados Agregados** | Venda de insights (anonimizados) | Receita adicional | Cuidados com privacidade |
+</div>
 
 ---
 
-## 📊 Análise de Custos Operacionais
+## 💰 Estratégias de Receita
 
-Custos atuais de infraestrutura, ferramentas e serviços:
+### Playbook por cenário
 
-### Infraestrutura Cloud
+<div class="grid cards" markdown>
+- **SaaS Recorrente**  
+  Assinaturas mensais/anuais, freemium e planos por uso. Ideal para produtos contínuos com roadmap ativo.
 
+- **Licenciamento & White Label**  
+  Tickets altos, contratos longos e personalização de marca para clientes enterprise.
+
+- **Marketplace & Transações**  
+  Comissão sobre vendas, lojas de plugins/add-ons e geração de leads qualificados.
+
+- **Serviços Complementares**  
+  Consultoria, implementação, treinamento e suporte premium elevam LTV.
+
+- **Publicidade & Dados**  
+  Anúncios leves, conteúdo patrocinado e insights agregados — sempre com ética e consentimento.
+</div>
+
+### Matriz rápida
+
+| Modelo | Quando usar | Cuidado |
+| --- | --- | --- |
+| Assinatura tiered | Produto core com roadmap claro | Evite planos confusos |
+| Freemium | Precisamos de volume e prova social | Defina limites nítidos |
+| Pay-per-use/API | Custos variáveis por cliente | Monitore margem unitária |
+| Marketplace | Ecossistema ativo de parceiros | Curadoria para manter qualidade |
+| Serviços | Clientes pedem acompanhamento próximo | Não virar pura consultoria |
+
+---
+
+## 📊 Custos Operacionais
+
+=== "Infra e Banco de Dados"
 | Serviço | Uso | Custo Mensal (USD) | Custo Anual (USD) |
-|---------|-----|-------------------|-------------------|
-| **Heroku** | Hospedagem apps (Dynos + Add-ons) | $0 - $250 | $0 - $3.000 |
-| **GitHub Pages** | Sites estáticos (Free Public) | $0 | $0 |
-| **Google Cloud** | Serviços variados | $0 - $100 | $0 - $1.200 |
-| **Azure** | (Planejado) | - | - |
-| **AWS** | (Planejado) | - | - |
+| --- | --- | --- | --- |
+| Heroku | Apps (Dynos + Add-ons) | $0 - $250 | $0 - $3.000 |
+| GitHub Pages | Sites estáticos | $0 | $0 |
+| Google Cloud | Serviços variados | $0 - $100 | $0 - $1.200 |
+| PostgreSQL | Heroku Postgres / Cloud SQL | $0 - $50 | $0 - $600 |
+| MongoDB / Redis | Planejado | - | - |
 
-**Subtotal Cloud**: ~$0 - $350/mês | ~$0 - $4.200/ano
+=== "Ferramentas e Serviços"
+| Item | Uso | Custo Estimado |
+| --- | --- | --- |
+| GitHub (Actions/Teams) | Repositórios e CI | $0 - $21/usuário/mês |
+| Windsurf (IDE IA) | Dev Experience | consultar plano |
+| Docker Hub | Registry | $0 - $7/mês |
+| Domínios + CDN + Monitoramento | Operação | $15 - $140/mês |
 
-### Banco de Dados
+> **Resumo**: operação lean varia de ~$15 até ~$568/mês (1 dev). Incrementa com equipe e SLAs.
 
-| Serviço | Uso | Custo Mensal (USD) | Custo Anual (USD) |
-|---------|-----|-------------------|-------------------|
-| **PostgreSQL** | Heroku Postgres / Cloud SQL | $0 - $50 | $0 - $600 |
-| **MongoDB** | (Planejado) | - | - |
-| **Redis** | (Planejado) Cache | - | - |
-
-**Subtotal Databases**: ~$0 - $50/mês | ~$0 - $600/ano
-
-### Ferramentas de Desenvolvimento
-
-| Ferramenta | Uso | Custo Mensal (USD) | Custo Anual (USD) |
-|------------|-----|-------------------|-------------------|
-| **GitHub** | Repositórios, Actions (Free Tier) | $0 - $21/usuário | $0 - $252/usuário |
-| **Windsurf** | IDE com IA | Verificar plano | Verificar plano |
-| **Docker Hub** | Registry de imagens | $0 - $7 | $0 - $84 |
-
-**Subtotal Ferramentas**: ~$0 - $28/usuário/mês
-
-### Serviços Externos (Quando Aplicável)
-
-| Serviço | Uso | Custo Estimado |
-|---------|-----|----------------|
-| **Domínios** | .com, .br, etc | ~$15/domínio/ano |
-| **SSL Certificates** | HTTPS (Let's Encrypt free) | $0 |
-| **Email Service** | Transacional (SendGrid, etc) | $0 - $20/mês |
-| **Monitoring** | Logs, APM (New Relic, Datadog) | $0 - $100/mês |
-| **CDN** | Cloudflare Free/Pro | $0 - $20/mês |
-
-**Subtotal Serviços**: ~$15 - $140/mês
-
-### Resumo de Custos Mensais
-
-| Categoria | Mínimo | Máximo |
-|-----------|--------|--------|
-| Cloud | $0 | $350 |
-| Databases | $0 | $50 |
-| Ferramentas (por dev) | $0 | $28 |
-| Serviços Externos | $15 | $140 |
-| **TOTAL (1 dev)** | **~$15** | **~$568** |
-| **TOTAL (3 devs)** | **~$15** | **~$652** |
-| **TOTAL (5 devs)** | **~$15** | **~$736** |
-
-### Custos Anuais Projetados
-
-| Cenário | Custo Anual Estimado |
-|---------|---------------------|
-| **Startup (1-2 devs, infra mínima)** | $200 - $3.000 |
-| **Pequena (3-5 devs, múltiplos projetos)** | $3.000 - $10.000 |
-| **Média (5-10 devs, escalando)** | $10.000 - $30.000 |
+=== "Projeções"
+| Cenário | Custo anual | Observações |
+| --- | --- | --- |
+| Startup (1-2 devs) | $200 - $3k | Free tiers + experimentos |
+| Pequena (3-5 devs) | $3k - $10k | Múltiplos projetos ativos |
+| Média (5-10 devs) | $10k - $30k | Escala e automação |
 
 ---
 
-## 📈 Estratégia de Sustentabilidade
+## 📈 Jornada de Monetização
 
-### Fase 1: Validação (0-6 meses)
-- **Foco**: Validar produto com custos mínimos
-- **Receita**: Primeiros clientes pagantes ou pilotos
-- **Infra**: Free tiers e custos mínimos (~$15-50/mês)
-- **Meta**: Break-even operacional
+| Fase | Horizonte | Foco | Receita alvo |
+| --- | --- | --- | --- |
+| **Validação** | 0-6 meses | MVP pago, pilotos | Break-even operacional |
+| **Crescimento** | 6-18 meses | Escalar base de clientes | $5k - $20k MRR |
+| **Escala** | 18+ meses | Portfólio de produtos/serviços | $50k+ MRR |
 
-### Fase 2: Crescimento (6-18 meses)
-- **Foco**: Escalar base de clientes
-- **Receita**: SaaS recorrente ou projetos fixos
-- **Infra**: Escalar conforme necessidade
-- **Meta**: $5k-20k MRR (Monthly Recurring Revenue)
+**KPIs essenciais**
 
-### Fase 3: Escala (18+ meses)
-- **Foco**: Múltiplos produtos/serviços
-- **Receita**: Diversificada (SaaS + Consultoria + Marketplace)
-- **Infra**: Otimizada e automatizada
-- **Meta**: $50k+ MRR
-
-### Indicadores Chave (KPIs)
-
-| Métrica | Descrição | Meta |
-|---------|-----------|------|
-| **MRR** | Monthly Recurring Revenue | Crescimento 10-20%/mês |
-| **CAC** | Customer Acquisition Cost | < 3x LTV |
-| **LTV** | Lifetime Value | > 3x CAC |
-| **Churn** | Taxa de cancelamento | < 5%/mês |
-| **Margem** | (Receita - Custos) / Receita | > 70% |
+- MRR crescendo 10-20%/mês.  
+- CAC < 3x LTV (foco em payback rápido).  
+- Churn < 5%/mês e margem > 70%.  
+- Reinvestimento de 30-50% do lucro em produto e marketing.
 
 ---
 
-## 💡 Recomendações
+## 💡 Recomendações práticas
 
-### Monetização
-1. **Começar com modelo híbrido**: Freemium SaaS + Consultoria
-2. **Validar willingness to pay** antes de construir
-3. **Pricing baseado em valor**, não em custo
-4. **Criar múltiplas fontes de receita** (diversificação)
+=== "Monetização"
+1. Começar híbrido (SaaS + consultoria) para financiar roadmap.  
+2. Validar willingness to pay antes de desenvolver features grandes.  
+3. Precificar pelo valor gerado, não apenas pelo custo interno.
 
-### Custos
-1. **Usar free tiers** ao máximo na validação
-2. **Monitorar custos semanalmente** (alertas automáticos)
-3. **Otimizar antes de escalar** (evitar desperdício)
-4. **Negociar contratos anuais** quando escalar (desconto 15-20%)
-5. **Reservar 15-20% da receita** para infraestrutura
+=== "Custos"
+1. Usar free tiers ao máximo na validação.  
+2. Monitorar custos semanalmente com alertas.  
+3. Negociar contratos anuais (15-20% desconto) ao escalar.  
+4. Reservar 15-20% da receita para infraestrutura.
 
-### Sustentabilidade
-- **Mínimo viável**: 5 clientes pagando $200/mês = $1.000 MRR
-- **Break-even**: Receita > Custos + Salários
-- **Crescimento saudável**: Reinvestir 30-50% do lucro em produto/marketing
+=== "Sustentabilidade"
+- Mínimo viável: 5 clientes a $200/mês = $1k MRR.  
+- Break-even: receita cobre custos fixos + time.  
+- Crescimento saudável: cada nova feature precisa de métrica de payback.
 
 ---
 
-> Sustentabilidade financeira vem de entregar valor real aos clientes enquanto mantemos custos sob controle.
+> Monetização consciente significa entregar valor real, cobrar com clareza e manter o ecossistema financeiro simples de operar.

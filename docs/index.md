@@ -1,89 +1,100 @@
-# ManaVitae WareSoft 🌿  
-### Arte, Consciência e Tecnologia em Equilíbrio
+# ManaVitae WareSoft 🌿
 
-Bem-vindo ao **ManaVitae Handbook** —  
-o centro vivo de conhecimento, propósito e cultura da ManaVitae WareSoft.
+<div class="hero" markdown>
 
-> Criamos software como expressão de consciência.  
-> Cada linha de código é um traço de arte, cada entrega é um ato de cuidado.
+### Software sob medida do primeiro insight ao crescimento sustentável
 
----
+Criamos, mantemos e reescrevemos sistemas digitais que unem arte, engenharia e consciência. Entregamos produtos vivos, com documentação, operação e evolução contínua.
 
-## ✨ Missão
+> Sua stack ganha propósito, performance e clareza estratégica.
 
-**Co-criar liberdade de mentes** e expandir a ideia de que é possível ter  
-**saúde, qualidade e sustentabilidade financeira** sem sacrificar nenhum desses lados.
+[Veja como trabalhamos](como-trabalhamos.md){ .md-button .md-button--primary }
+[Conhecer contrato](contrato-cliente.md){ .md-button }
 
-Buscamos desenvolver soluções digitais que harmonizem  
-**intenção, forma e função**, promovendo equilíbrio entre o humano e o tecnológico.  
-Cada produto é uma obra que vibra propósito — saudável, bela e funcional.
+</div>
 
 ---
 
-## 🌈 Visão
+## O que entregamos
 
-Ser referência em **desenvolvimento consciente de software**,  
-onde a arte encontra a engenharia e a tecnologia respeita a vida.
+<div class="grid cards" markdown>
+- :material-lightbulb-on-outline: **Criação de sistemas**  
+  MVPs, plataformas e produtos customizados. Discovery, arquitetura, design de experiência e desenvolvimento full-stack.
 
-Queremos inspirar uma nova geração de criadores a:
-- desenvolver com propósito,  
-- pensar com empatia,  
-- e viver a tecnologia como ferramenta de evolução.
+- :material-heart-pulse: **Manutenção ativa**  
+  Sustentamos sistemas existentes com monitoramento, correções, otimizações e documentação viva.
 
-Nosso futuro é um ecossistema de aplicações que florescem  
-pela experiência positiva que entregam — não pela obrigação de uso.
-
----
-
-## 💎 Valores
-
-| Valor | Descrição |
-|-------|------------|
-| **Vida acima da pressa** | Nenhum resultado vale mais do que a saúde e o tempo de quem cria. |
-| **Empatia e consciência** | Criar é um ato que impacta — agimos com ética e sensibilidade. |
-| **Qualidade em estado de arte** | Buscamos precisão, beleza e equilíbrio em cada detalhe. |
-| **Equilíbrio e pragmatismo** | Usamos apenas o necessário, no momento certo, com intenção clara. |
-| **Cocriação com o usuário** | O usuário é parte da experiência, não apenas o destino dela. |
-| **Liberdade e aprendizado** | Crescer é libertar o pensamento e aprender com cada ciclo. |
-| **Transparência e verdade** | Clareza nas decisões e nas intenções — o código e a cultura devem refletir o mesmo propósito. |
+- :material-sync: **Reescrita consciente**  
+  Modernizamos código legado mantendo conhecimento do negócio. Refatoração guiada por métricas e ADRs.
+</div>
 
 ---
 
-## 🧭 Caminho da Criação
+## Nosso ciclo de parceria
 
-O processo de desenvolvimento segue um fluxo natural:
+```mermaid
+flowchart LR
+    A[Imersão no contexto] --> B[Estratégia e arquitetura]
+    B --> C[Construção iterativa]
+    C --> D[Qualidade e operação]
+    D --> E[Evolução contínua]
 ```
 
-Brainstorm → Protótipo → Teste → Refino → Entrega
-
-```
-Cada etapa honra o propósito original e busca vibração harmônica entre forma e função.
-
-> Criamos para elevar, curar e prosperar — sem sacrificar o equilíbrio entre saúde, qualidade e realidade.
+Cada etapa é documentada no handbook para que você tenha transparência do processo, decisões e acordos de trabalho.
 
 ---
 
-## 🌱 Crescimento Consciente
+## Pacotes e resultados
 
-O crescimento da ManaVitae não é inflar números, mas expandir propósito.  
-Cada nova pessoa, projeto ou cliente é um novo ponto de luz que compartilha da mesma frequência.
+| Pacote | Ideal para | Entregáveis principais |
+| --- | --- | --- |
+| **Seed** | Times em ideação ou MVP | Discovery guiado, backlog priorizado, protótipo navegável |
+| **Grow** | Produtos em operação | Roadmap trimestral, squad híbrido, indicadores de saúde técnica |
+| **Renew** | Sistemas legados e reescritas | Auditoria, plano de reescrita, refatorações por módulo |
 
-> Crescer é florescer com consciência — multiplicar arte, ética e empatia.
-
----
-
-## 📚 Navegação
-
-Use o menu à esquerda ou siga pelos links abaixo:
-
-- [Nosso Motivo](motivo.md)  
-- [Princípios](principios.md)  
-- [Como Trabalhamos](como-trabalhamos.md)  
-- [Crescimento Consciente](crescimento.md)  
-- [Modelo ADR](decisao-tecnica-template.md)
+> Medimos sucesso com qualidade, saúde do time e impacto de negócio — não só com deploys.
 
 ---
 
->_“Transformamos ideias em arte funcional que eleva, cura e prospera —  
-sem sacrificar o equilíbrio entre saúde, qualidade e realidade.”_
+## Por que confiar
+
+!!! info "Especialistas em fluxo completo"
+    - Cada decisão de stack é registrada e compartilhada com o parceiro.
+    - Guidelines vivas para Angular, Tailwind, PrimeNG e mais.
+    - Cultura registrada em detalhes para alinhar time e parceiros.
+
+!!! tip "Entrega com consciência"
+    - Ritmo sustentável, sem sprints de burnout.
+    - Processos com IA (Windsurf) para acelerar com qualidade.
+    - Comunicação transparente e registros acessíveis.
+
+---
+
+## Explore o handbook
+
+<div class="grid cards" markdown>
+- :material-compass-outline: **Motivo**  
+  [Sinta o porquê existimos](motivo.md)
+
+- :material-handshake-outline: **Princípios**  
+  [Regras vivas da nossa operação](principios.md)
+
+- :material-fire-circle: **Como Trabalhamos**  
+  [Processos, DoD e ritmo](como-trabalhamos.md)
+
+- :material-rocket-launch-outline: **Crescimento**  
+  [Onboarding, rituais e aprendizado](crescimento.md)
+
+- :material-handshake: **Contrato com Cliente**  
+  [Fluxo completo e planos](contrato-cliente.md)
+
+- :material-chat-processing-outline: **Prompt-Mestre**  
+  [Como usamos IA no dia a dia](prompt-mestre.md)
+</div>
+
+---
+
+> _Construímos sistemas que respiram propósito, operam com clareza e evoluem junto com você._
+
+[Agende uma conversa](https://api.whatsapp.com/send?phone=5512982772367&text=Quero%20saber%20mais%20sobre%20os%20servi%C3%A7os%20ManaVitae){ .md-button .md-button--primary }
 

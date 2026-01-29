@@ -1,41 +1,78 @@
 # Nosso Motivo
 
-A **ManaVitae WareSoft** nasce com um propósito simples e forte:
-
-> **Co-criar liberdade de mentes** e expandir a ideia de que é possível ter **saúde, qualidade e sustentabilidade financeira** sem sacrificar nenhum desses lados.
-
----
-
-## 🌿 Por que existimos
-
-Queremos criar **software como arte viva** — produtos desenvolvidos com consciência, que respeitam o fluxo emocional do usuário, preservam sua saúde e expressam intenções positivas em cada detalhe técnico e visual.
-
-Cada aplicação é uma tentativa de **trazer equilíbrio ao campo escalar**, unindo física quântica, design, ética e tecnologia de forma harmoniosa.  
-Não buscamos apenas “funcionar”, mas **florescer junto com o universo** — prosperando em todas as direções.
+> **Somos uma empresa de software que cria, mantém e reescreve sistemas com consciência, arte e resultado.**
+{ .quote }
 
 ---
 
-## 💎 O que nos move
+## 🌟 Missão
 
-- **Qualidade em estado de arte** — software que emociona pela precisão e beleza.
-- **Saúde e bem-estar** — impacto positivo biopsicossocial em usuários e criadores.
-- **Intenção consciente** — cada tela, cor e fluxo carrega propósito.
-- **Simplicidade e pragmatismo** — fazemos o necessário com excelência.
-- **Ética e empatia** — cuidamos do que criamos e de quem usa.
-- **Frequência adequada** — vibração positiva acima de métricas financeiras.
-- **Equilíbrio** — entre tecnologia, arte e a realidade física.
+!!! info "O que fazemos todos os dias"
+    - **Construir software saudável**: cada produto precisa ser útil, belo e sustentável.
+    - **Cuidar de pessoas e sistemas**: preservamos energia do time e dos clientes.
+    - **Dar visibilidade total**: processos, decisões técnicas e acordos ficam documentados.
 
----
-
-## 🌍 O que queremos inspirar
-
-Queremos que nossos produtos sejam **referência de uma nova onda no desenvolvimento de software** —  
-onde qualidade técnica e saúde emocional caminham juntas, e cada aplicação é uma experiência completa, bela e saudável.
-
-O sucesso vem quando os usuários **sentem a diferença** — amam o que usamos e naturalmente recomendam, não por obrigação, mas por afinidade real.
+Missão resumida: **transformar ideias em plataformas vivas, prontas para evoluir com clareza e propósito.**
 
 ---
 
-## ✨ Nossa essência em uma frase
+## 🔭 Visão
 
-> “Transformamos ideias em arte funcional que eleva, cura e prospera — sem sacrificar o equilíbrio entre saúde, qualidade e realidade.”
+=== "Hoje"
+- Referência em squads enxutos que entregam do discovery ao run.
+- Stack opinativa (Angular 20 + PrimeNG + Tailwind + IA) para acelerar qualidade.
+
+=== "Amanhã"
+- Manter uma rede de produtos que respiram nossa cultura, mesmo em clientes diferentes.
+- Ser lembrados como quem reescreve sistemas legados com respeito e documentação impecável.
+
+Visão resumida: **provar que software corporativo pode ser leve, transparente e humano.**
+
+---
+
+## � Valores e princípios
+
+Nossos valores estão detalhados em `principios.md`. Use-os como filtro rápido:
+
+<div class="grid cards" markdown>
+- :material-heart: **Vida acima da pressa**  
+  [Leia o princípio](principios.md#vida-acima-da-pressa)
+
+- :material-eye: **Empatia e consciência**  
+  [Leia o princípio](principios.md#empatia-e-consciencia-em-cada-acao)
+
+- :material-diamond-stone: **Qualidade é equilíbrio**  
+  [Leia o princípio](principios.md#qualidade-e-equilibrio)
+
+- :material-infinity: **Completar o ciclo**  
+  [Leia o princípio](principios.md#completar-o-ciclo)
+
+- :material-scale-balance: **Harmonia humano-tecnologia**  
+  [Leia o princípio](principios.md#harmonia-entre-tecnologia-e-ser-humano)
+
+- :material-account-voice: **Cocriação com o usuário**  
+  [Leia o princípio](principios.md#cocriacao-com-o-usuario)
+
+- :material-fire: **Evolução com liberdade**  
+  [Leia o princípio](principios.md#evoluir-com-liberdade)
+</div>
+
+---
+
+## � Como usamos o motivo no dia a dia
+
+1. **Briefings e propostas**: só aceitamos trabalhos que reforçam missão e visão.
+2. **Decisões técnicas**: registramos escolhas e critérios para manter o propósito vivo.
+3. **Revisões de parceria**: avaliamos projetos com base nos valores acima.
+
+> Se algum projeto foge desse motivo, paramos, realinhamos ou recusamos. Simples assim.
+
+---
+
+## 🧭 Onde aprender mais
+
+- [Princípios completos](principios.md)
+- [Como trabalhamos na prática](como-trabalhamos.md)
+- [Guia prático de fluxo](como-trabalhamos.md#processo-de-desenvolvimento)
+
+Essas páginas detalham como a missão e a visão se traduzem em processos, acordos e decisões.

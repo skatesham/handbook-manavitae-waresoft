@@ -1,88 +1,111 @@
 # Crescimento Consciente
 
-Crescer não é se expandir por vaidade — é **aumentar a capacidade de manifestar propósito**.  
-A ManaVitae WareSoft cresce para multiplicar equilíbrio, arte e bem-estar, sem perder o centro.
+<div class="hero" markdown>
+
+### Crescer é amplificar propósito, não vaidade
+
+Escalar para nós significa aumentar a capacidade de manifestar equilíbrio, arte e bem-estar — mantendo o mesmo centro.
+
+</div>
 
 ---
 
-## 🌱 1. Crescer mantendo a essência
+## 🌱 Fundamentos que nunca mudam
 
-Toda nova pessoa, cliente ou projeto deve compreender antes de tudo **o motivo** e **os princípios**.   
-Sem isso, o crescimento é vazio.  
-Antes de ensinar ferramentas, ensinamos o *porquê* e o *como sentir o ritmo da empresa*.
+<div class="grid cards" markdown>
+- :material-heart: **Cultura antes de cargo**  
+  Toda pessoa, cliente ou projeto começa entendendo o [motivo](motivo.md) e os [princípios](principios.md).
 
-> Cultura vem antes de cargo.
+- :material-compass: **Ritmo próprio**  
+  Onboarding ensina como sentir o tempo da empresa antes de mergulhar em ferramentas.
 
----
-
-## 🧬 2. Onboarding estruturado
-
-Cada novo integrante passa por um **processo de integração**, incluindo:  
-- Leitura do **Handbook** (motivo, princípios, como trabalhamos)
-- **Setup do ambiente** de desenvolvimento (ferramentas, acessos, repositórios)
-- **Revisão de ADRs** para entender decisões técnicas
-- **Pair programming** com membros experientes
-- **Primeira contribuição** guiada (bug fix ou feature pequena)
-
-Primeiros 30 dias focam em absorver cultura, processos e fazer contribuições incrementais.
+- :material-shield-check: **Acordos vivos**  
+  O manual de acordos é o fio entre liberdade e responsabilidade.
+</div>
 
 ---
 
-## 🤝 3. Acordos e autonomia
+## 🧬 Onboarding em camadas
 
-O manual de acordos é o fio condutor entre liberdade e responsabilidade.  
-Cada membro tem autonomia para decidir, criar e agir —  
-desde que **honre os princípios e a intenção original** de cada projeto.
+=== "Primeiros 10 dias"
+- Leitura guiada do handbook.
+- Setup completo de ferramentas e acessos.
+- Ritual de boas-vindas para alinhar expectativas.
 
-> A liberdade é plena quando nasce da consciência.
+=== "Dias 11-30"
+- Pair programming com quem já está no fluxo.
+- Primeira entrega pequena (bugfix ou ajuste visual).
+- Feedbacks curtos a cada semana.
 
----
+=== "Após 30 dias"
+- Autonomia com acompanhamento leve.
+- Participação em rituais (reviews, retrospectivas, sessões técnicas).
+- Responsabilidade por uma área do handbook ou guideline.
 
-## 🔄 4. Conhecimento compartilhado
-
-**Documentação contínua**:
-- Decisões técnicas registradas em ADRs
-- Soluções de problemas documentadas
-- Processos atualizados no Handbook
-- Código comentado onde necessário
-- README mantidos atualizados
-
-**Compartilhamento ativo**:
-- Sessões técnicas mensais
-- Code reviews como ferramenta de ensino
-- Retrospectivas para evolução de processos
+> Onboarding bem feito diminui ruído e acelera confiança.
 
 ---
 
-## 🧬 5. Crescimento escalável
+## 🤝 Autonomia com direção
 
-Crescemos de forma estruturada:    
-- **Pessoas**: Contratar alinhados com cultura e princípios
-- **Processos**: Documentar, automatizar, padronizar antes de escalar
-- **Tecnologia**: Arquitetura que suporta crescimento sem reescrita
-- **Clientes**: Aumentar base mantendo qualidade de entrega
+!!! tip "Nossa régua"
+    - Liberdade existe enquanto honra missão + princípios.
+    - Decisões são documentadas e explicadas para o time.
+    - Todo mundo sabe quando pausar ou pedir ajuda.
 
-Processos sólidos permitem crescer sem perder qualidade ou sobrecarregar o time.
-
----
-
-## 🌺 6. Manter a cultura técnica
-
-Mesmo crescendo, preservamos:  
-- **Qualidade técnica** através de padrões e code review
-- **Documentação** como base de conhecimento escalável
-- **Testes automatizados** garantindo confiança em mudanças
-- **Processos consistentes** que funcionam independente do tamanho do time
-- **Autonomia** baseada em princípios claros e bem comunicados
-
-Cultura forte permite crescer sem perder identidade ou qualidade.
+Checklist antes de assumir algo sozinho:
+1. O motivo do projeto está claro?
+2. Sei quais princípios tocam essa entrega?
+3. Existe histórico/documentação para suportar a decisão?
 
 ---
 
-## ✨ 7. Crescer é florescer
+## 🔄 Conhecimento que circula
 
-Crescimento verdadeiro não é inflar números — é florescer em propósito.  
-Quando todos se sentem parte, quando o trabalho faz sentido e a criação vibra harmonia,  
-sabemos que a ManaVitae está crescendo do jeito certo.
+| Rotina | Frequência | Objetivo |
+| --- | --- | --- |
+| Sessões técnicas | Mensal | Atualizar práticas e stack |
+| Code reviews | Contínuo | Ensinar construindo junto |
+| Retrospectivas | Quinzenal | Ajustar processos e acordos |
+| Atualização do handbook | Sempre que algo muda | Manter verdade única |
+
+Documentamos decisões técnicas, soluções e lições aprendidas para que o crescimento seja escalável e transparente.
+
+---
+
+## 📈 Fórmula de crescimento saudável
+
+<div class="grid cards" markdown>
+- :material-account-multiple-check: **Pessoas**  
+  Contratamos quem vibra com nossa cultura antes de olhar para o stack.
+
+- :material-cog: **Processos**  
+  Automatizamos e padronizamos só depois de validar a intenção.
+
+- :material-memory: **Tecnologia**  
+  Arquiteturas suportam crescimento sem reescrita traumática.
+
+- :material-storefront: **Clientes**  
+  Ampliamos base mantendo o mesmo nível de cuidado e presença.
+</div>
+
+---
+
+## 🌺 Cultura técnica preservada
+
+!!! success "Nossos pilares"
+    - Qualidade sustentada por padrões e reviews consistentes.
+    - Testes automatizados para liberar deploys tranquilos.
+    - Documentação e guidelines como base do diálogo.
+    - Autonomia baseada em intenção clara.
+
+---
+
+## ✨ Crescer é florescer
 
 > “Crescer é expandir luz, não sombra.”
+
+Nosso crescimento está certo quando:
+- Todos entendem por que e para quem estão construindo.
+- O trabalho faz sentido e respeita os ritmos humanos.
+- A criação continua bela, funcional e honesta consigo mesma.

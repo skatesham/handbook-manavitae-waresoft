@@ -1,113 +1,146 @@
+# Como Trabalhamos (ManaVitae)
 
-# Como Trabalhamos
+> Criamos com arte. Entregamos com consciência. Sustentamos com método.
 
-Na ManaVitae WareSoft, o trabalho é expressão de consciência e criação.  
-Nosso foco não está em horas ou pressão, mas em **resultado com propósito** — cada entrega nasce do fluxo natural, sem quebrar a harmonia entre tempo, saúde e qualidade.
+## Essência em 30 segundos
 
----
-
-## 🌊 1. Ritmo e fluxo natural
-
-O único requisito é **resultado real**.  
-Cada pessoa trabalha em seu ritmo, respeitando o próprio ciclo e energia.  
-Fluxo natural não é falta de direção — é sintonia com o tempo certo de criar.
-
-> Trabalhar aqui é fluir, não forçar.
+* **Foco:** resultado concreto com qualidade.
+* **Como garantimos:** processo simples + documentação mínima + revisão.
+* **Como você acompanha:** entregas por etapa, checklist de pronto e registro das decisões.
 
 ---
 
-## 🧭 2. Prioridade guiada pelo “Porquê”
+## O que o cliente recebe
 
-Tudo começa pelo **motivo e propósito** de cada ação.  
-Antes de agir, perguntamos:  
-> “Por que isso existe? O que queremos manifestar?”  
-
-As estratégias e planos de ação nascem a partir dessa clareza — o *porquê* orienta o *como* e o *quando*.
-
----
-
-## 💬 3. Comunicação com consciência
-
-Usamos um **manual de acordos** para orientar a comunicação, adaptando o formato à necessidade:  
-- **Async** para pensamentos profundos ou documentação.  
-- **Curtas** para decisões objetivas.  
-- **Longas** quando o tema pede presença e empatia.
-
-Cada conversa tem intenção clara e respeita o tempo de resposta dos outros.  
-Falar é um ato consciente, não uma descarga emocional.
+* **Entregáveis claros** (texto, identidade visual, peças, landing, etc.).
+* **Qualidade consistente** (padrões + revisão + DoD).
+* **Rastreabilidade** (o que foi decidido, por quê, quando e por quem).
+* **Evolução contínua** (melhorias quinzenais com base em dados e feedback).
 
 ---
 
-## 🛠️ 4. Ferramentas e tecnologia
+## Papéis e responsabilidades
 
-Utilizamos:
-- **Git + GitHub** para versionamento e colaboração
-- **Windsurf** como IDE principal com IA integrada
-- **Stack definida** conforme documentado em Engenharia de Software
-- **WhatsApp** para comunicação rápida do time
-- **Documentação** como fonte única de verdade (ADRs, README, manuais)
+### 📝 Editor Supremo (Conteúdo e Direção Editorial)
 
-Escolhemos ferramentas que aumentam produtividade sem adicionar complexidade desnecessária.
+Responsável por:
+
+* definir tom, mensagem e estrutura final dos materiais.
+* transformar informações brutas em conteúdo publicável.
+* manter coerência entre peças (site, redes, apresentações, docs).
+  Entregas típicas:
+* textos finais, guidelines de linguagem, roteiros, headline/CTA, revisão.
+
+### 🎨 Designer (Visual e Experiência)
+
+Responsável por:
+
+* identidade visual, layout e peças (social, banner, PDF, etc.).
+* consistência visual (componentes, grid, tipografia, cores).
+* adaptar o conteúdo para formatos (feed, stories, anúncio, apresentação).
+  Entregas típicas:
+* peças finais, templates, variações por canal, arquivos prontos para publicação.
+
+### 📈 Analista de Vendas (Distribuição e Conversão)
+
+Responsável por:
+
+* organizar oferta, funil e argumentos (prova, benefício, objeções).
+* transformar conteúdo/peças em **ação comercial** (campanhas e cadências).
+* medir e retroalimentar o time com dados (o que converte / o que não converte).
+  Entregas típicas:
+* scripts, mensagens, cadência, matriz de objeções, plano de campanha, relatório.
 
 ---
 
-## 🎨 5. Processo de desenvolvimento
+## Fluxo de trabalho (simples e rastreável)
 
-Fluxo de trabalho:
+1. **Brief / Demanda**
+
+* objetivo, público, canal, prazo e “definição de sucesso”.
+* referência do propósito (quando existir): `docs/motivo.md`.
+
+2. **Plano curto**
+
+* lista do que será entregue, responsável por etapa e checkpoints.
+
+3. **Produção**
+
+* Editor cria/ajusta conteúdo.
+* Designer converte em peças e versões.
+* Vendas prepara distribuição, CTA e cadência.
+
+4. **Revisão**
+
+* revisão final (conteúdo + visual + consistência + checklist).
+
+5. **Publicação / Execução**
+
+* subir, publicar, disparar campanha, acompanhar.
+
+6. **Aprendizado**
+
+* registrar o que funcionou, o que falhou e o próximo ajuste.
+
+```mermaid
+flowchart LR
+  A[Brief] --> B[Plano curto]
+  B --> C[Conteúdo - Editor]
+  C --> D[Design - Peças]
+  D --> E[Vendas - Campanha/CTA]
+  E --> F[Revisão + DoD]
+  F --> G[Publicar/Executar]
+  G --> H[Relatório + Aprendizado]
 ```
-Planejamento → Implementação → Testes → Code Review → Deploy
-```
-
-**Na prática**:
-- Criar branch feature/bugfix do develop
-- Desenvolver seguindo padrões estabelecidos
-- Escrever testes automatizados
-- Abrir PR com descrição clara
-- Code review obrigatório
-- Merge após aprovação e testes passando
-- Deploy automático ou manual conforme ambiente
-
-O processo é consistente mas adaptável conforme necessidade do projeto.
 
 ---
 
-## 🌺 6. Definition of Done
+## Comunicação (objetiva e respeitosa)
 
-Uma entrega está **pronta** quando:  
-- Funciona conforme especificado
-- Testes automatizados criados e passando
-- Code review aprovado
-- Documentação atualizada
-- Deploy em ambiente de validação realizado
-- Sem bugs conhecidos ou débitos técnicos não documentados
+* **Assíncrono (preferencial):** decisões e contexto ficam registrados.
 
-> Qualidade é responsabilidade de todos, desde o primeiro commit.
+  * Sempre com **resumo no topo** (3–6 linhas).
+* **Mensagens curtas:** para destravar (WhatsApp / comentário no PR).
+* **Síncrono curto:** quando houver nuance, conflito ou alta ambiguidade (com pauta).
+
+**Acordo simples:** intenção explícita + contexto mínimo + prazo de resposta combinado.
 
 ---
 
-## 🕊️ 7. Saúde emocional e autonomia
+## Ferramentas (sem inflar complexidade)
 
-A empresa não impõe peso emocional aos seus membros.  
-Cada um é livre para cuidar do próprio equilíbrio.  
-> “Não seja o problema para alguém, a menos que ela peça explicitamente sua ajuda.”  
-
-Esse princípio protege a energia e o respeito mútuo.
-
----
-
-## 🔄 8. Aprendizado contínuo
-
-Erros fazem parte do desenvolvimento.  
-O que importa é **aprender e evoluir**:  
-1. **Identificar** — reconhecer o problema ou falha
-2. **Documentar** — registrar causa raiz e solução
-3. **Prevenir** — criar testes, processos ou melhorias para evitar repetição
-4. **Compartilhar** — disseminar conhecimento com o time
-
-Retrospectivas quinzenais ajudam a identificar melhorias em processos e práticas.
+| Categoria        | Ferramenta                 | Para quê                       |
+| ---------------- | -------------------------- | ------------------------------ |
+| Versionamento    | Git + GitHub               | rastrear mudanças e aprovar PR |
+| Comunicação      | WhatsApp + Issues          | velocidade com registro        |
+| Fonte de verdade | Docs (README/ADRs/manuais) | alinhamento e histórico        |
+| Stack/Processo   | `docs/engenharia.md`       | padrão oficial                 |
 
 ---
 
-> Trabalhar na ManaVitae é praticar o equilíbrio:  
-> criar com arte, entregar com consciência e viver com propósito.
+## Definition of Done (o que é “pronto”)
 
+* ✅ atende o objetivo e o público definidos no brief
+* ✅ revisão concluída (conteúdo + visual + consistência)
+* ✅ versão final publicada/entregue no formato correto
+* ✅ documentação mínima atualizada (mudanças e decisões relevantes)
+* ✅ próximos passos e métricas definidos (quando aplicável)
+
+---
+
+## Saúde e sustentabilidade (sem perder compromisso)
+
+* trabalhamos com autonomia e responsabilidade.
+* prazos e combinados são respeitados.
+* quando surgir risco (prazo/escopo), comunicamos cedo e ajustamos com clareza.
+
+---
+
+## Aprendizado contínuo (leve, mas real)
+
+* identificar causa raiz (sem caça às bruxas)
+* registrar decisão (ADR quando necessário)
+* prevenir recorrência (ajuste de processo, checklist ou teste)
+* compartilhar no lugar certo
+
+> Trabalho consciente é: clareza + qualidade + entrega sustentável.
